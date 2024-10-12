@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Haonan(Eric) Gao"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : "he/him" 
+  bio              : 
+  location         : "New Haven, CT"
+  employer         : "Yale University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "eric.gao@yale.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
