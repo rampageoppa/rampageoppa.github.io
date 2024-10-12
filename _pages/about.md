@@ -15,12 +15,21 @@ I completed my undergraduate in Computer Science and Statistics at the Universit
 ---
 Research and Projects
 ---
-### 
-
 ![Graph showing relative cost](images/research_1.png) 
 
 ### [SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects](https://arxiv.org/abs/2309.07445)
 David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba O. Alabi, Yanke Mao, **Haonan Gao**, Annie En-Shiun Lee
-*The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2024*  
+*The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024)*  
 
-a large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU).
+A large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU).
+
+---
+![Graph showing relative cost](images/research_2.png) 
+
+### [A Diagnostic Question Analysis Model based on a Modified Item Response Theory](https://www.atlantis-press.com/proceedings/isemss-22/125981882)
+**Haonan Gao**
+*Proceedings of the 2022 6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022)*
+
+A new generated model based on Item Response Theory (IRT) with discrimination parameter added and classification by groups, the model on the real-world dataset is verified.
+
+---
