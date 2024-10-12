@@ -11,9 +11,11 @@ I am a first-year Master’s student at Yale University, with a Biostatistics ma
 
 I completed my undergraduate in Computer Science and Statistics at the University of Toronto. Between my third year and last year of undergrads, I took a gap year roles at Huawei Technologies Canada, where I contributed to cloud data engineering and large-scale data processing systems. I am passionate about advancing computational methods in data science and making impactful contributions through research. 
 
+
+
 ---
-Research and Projects
----
+
+## Research and Projects
 
 ![Graph showing relative cost](images/research_1.png) 
 
@@ -33,4 +35,20 @@ A large-scale open-sourced benchmark dataset for topic classification in 200 lan
 A newly generated model based on Item Response Theory (IRT) with an added discrimination parameter and classification by groups. 
 
 ---
+
+![Graph showing relative cost](images/research_3.png) 
+
+### [Water For The World(W4TW)](https://github.com/rampageoppa/engineers-without-boarders-canada-t-main)
+
+An android mobile application that develops for Engineers Without Borders Canada. This application is for people who are in areas lacking water or lack knowledge about water environment protection, it contains some questions about water purifying and a water filter experiment. The user will be required to finish these questions and build a virtual water filter. Then, the user will get a score to evaluate the performance of the water filter they create. The final goal of this application is to help people raise their awareness of water protection and learn some knowledge about water purifying.
+
+---
+
+
+
+
+
+
+
+
 
