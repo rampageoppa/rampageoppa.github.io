@@ -51,8 +51,19 @@ A large-scale open-sourced benchmark dataset for topic classification in 200 lan
 
 ---
 
+### [Penalized Regression without Cross-validation](files/Penalized Regression without CV.pdf)
 
+Utilize reduced summary data sourced from public databases to delve into the neurobiological mechanisms of behavior using univariate penalized regression models such as Ridge, LASSO, or Elastic-Net.
 
+---
+![Graph showing relative cost](images/research_4.png) 
 
+### [A Multilingual
+Dataset (MultiMWP) and Benchmark for Math Word Problem Generation.](files/T-ASL-10245-2023_Proof_hi.pdf)
+Gamage O. Ishendra, Surangika Dayani Ranathunga, Annie Lee, Mehreen Alam, **Haonan Gao**, et al.
+*IEEE/ACM Transactions on Audio, Speech and Language Processing, VOL. 31, 2023*
 
+A multi-way parallel corpus of Math Word Problems (MWPs) in nine languages, including six low-resource languages. To date, this is the largest multilingual MWP dataset available. Integrate
+a math constraint satisfaction module with autoregressive text generation.
 
+---
