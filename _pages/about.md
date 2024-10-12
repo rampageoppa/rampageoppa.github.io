@@ -13,7 +13,12 @@ I completed my undergraduate in Computer Science and Statistics at the Universit
 
 
 ---
-Research and Projects
+permalink: /
+title: "Research and Projects"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 ![Graph showing relative cost](images/research_1.png) 
 
