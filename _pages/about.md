@@ -26,35 +26,33 @@ David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba O. A
 A large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects is needed to address the lack of evaluation datasets for Natural Language Understanding (NLU).
 
 ---
-![Graph showing relative cost](images/research_2.png) 
 
-### [A Diagnostic Question Analysis Model based on a Modified Item Response Theory](https://www.atlantis-press.com/proceedings/isemss-22/125981882)
-**Haonan Gao**  
-*Proceedings of the 2022 6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022)*  
+<div style="display: flex; align-items: flex-start;">
+  <img src="images/research_2.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px;">
+  <div>
+    <h3><a href="https://www.atlantis-press.com/proceedings/isemss-22/125981882">A Diagnostic Question Analysis Model based on a Modified Item Response Theory</a></h3>
+    
+    <strong>Haonan Gao</strong><br>
+    <em>Proceedings of the 2022 6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022)</em><br><br>
 
-A newly generated model based on Item Response Theory (IRT) with an added discrimination parameter and classification by groups. 
-
----
-
-![Graph showing relative cost](images/research_3.png) 
-
-### [Water For The World(W4TW)](https://github.com/rampageoppa/engineers-without-boarders-canada-t-main)
-
-An android mobile application that develops for Engineers Without Borders Canada. This application is for people who are in areas lacking water or lack knowledge about water environment protection, it contains some questions about water purifying and a water filter experiment. The user will be required to finish these questions and build a virtual water filter. Then, the user will get a score to evaluate the performance of the water filter they create. The final goal of this application is to help people raise their awareness of water protection and learn some knowledge about water purifying.
+    A newly generated model based on Item Response Theory (IRT) with an added discrimination parameter and classification by groups.
+  </div>
+</div>
 
 ---
 
 <div style="display: flex; align-items: flex-start;">
   <img src="images/research_3.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px;">
   <div>
-    ### [Water For The World(W4TW)](https://github.com/rampageoppa/engineers-without-boarders-canada-t-main)
+    <h3><a href="https://github.com/rampageoppa/engineers-without-boarders-canada-t-main">Water For The World (W4TW)</a></h3>
     
-   An android mobile application that develops for Engineers Without Borders Canada. This application is for people who are in areas lacking water or lack knowledge about water environment protection, it contains some questions about water purifying and a water filter experiment. The user will be required to finish these questions and build a virtual water filter. Then, the user will get a score to evaluate the performance of the water filter they create. The final goal of this application is to help people raise their awareness of water protection and learn some knowledge about water purifying.
+   An android mobile application developed for Engineers Without Borders Canada. This application is designed for people in areas lacking access to clean water or knowledge about water environment protection. It includes interactive questions about water purification and a water filter experiment. The user is required to complete these questions and build a virtual water filter. They are then given a score to evaluate the performance of the filter they created. The aim of the application is to raise awareness of water conservation and educate users about water purification methods.
    
   </div>
 </div>
 
 ---
+
 
 
 
