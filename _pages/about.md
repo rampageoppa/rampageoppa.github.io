@@ -14,7 +14,7 @@ I completed my undergraduate in Computer Science and Statistics at the Universit
 David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba O. Alabi, Yanke Mao, **Haonan Gao**, Annie En-Shiun Lee
 *The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024)*  
 
-A large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU).
+A large-scale open-sourced benchmark dataset for topic classification in 200 languages and dialects is needed to address the lack of evaluation datasets for Natural Language Understanding (NLU).
 
 ---
 ![Graph showing relative cost](images/research_2.png) 
