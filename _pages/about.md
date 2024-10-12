@@ -58,8 +58,7 @@ Utilize reduced summary data sourced from public databases to delve into the neu
 ---
 ![Graph showing relative cost](images/research_4.png) 
 
-### [A Multilingual
-Dataset (MultiMWP) and Benchmark for Math Word Problem Generation.](files/T-ASL-10245-2023_Proof_hi.pdf)
+### [A Multilingual Dataset (MultiMWP) and Benchmark for Math Word Problem Generation.](files/T-ASL-10245-2023_Proof_hi.pdf)
 Gamage O. Ishendra, Surangika Dayani Ranathunga, Annie Lee, Mehreen Alam, **Haonan Gao**, et al.
 *IEEE/ACM Transactions on Audio, Speech and Language Processing, VOL. 31, 2023*
 
