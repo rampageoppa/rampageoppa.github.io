@@ -17,8 +17,8 @@ permalink: /
 title: "Research and Projects"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /research/
+  - /research.html
 ---
 ![Graph showing relative cost](images/research_1.png) 
 
