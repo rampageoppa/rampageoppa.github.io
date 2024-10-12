@@ -21,7 +21,7 @@ repository               : "rampageoppa/rampageoppa.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/temp.png"
+  avatar           : "temp.png"
   name             : "Haonan(Eric) Gao"
   pronouns         : "高浩男" 
   bio              : 
