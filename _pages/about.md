@@ -32,9 +32,7 @@ A large-scale open-sourced benchmark dataset for topic classification in 200 lan
   <div style="display: flex; flex-direction: column; justify-content: flex-start;">
     <h3><a href="https://www.atlantis-press.com/proceedings/isemss-22/125981882">A Diagnostic Question Analysis Model based on a Modified Item Response Theory</a></h3>
     
-    <strong>Haonan Gao</strong><br>
-    <em>Proceedings of the 2022 6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022)</em><br><br>
-
+    <em>Proceedings of the 2022 6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022)</em><br>
     A newly generated model based on Item Response Theory (IRT) with an added discrimination parameter and classification by groups.
   </div>
 </div>
