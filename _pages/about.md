@@ -11,7 +11,7 @@ I am a first-year Master’s student at Yale University, with a Biostatistics ma
 
 I completed my undergraduate in Computer Science and Statistics at the University of Toronto. Between my third year and last year of undergrads, I took a gap year roles at Huawei Technologies Canada, where I contributed to cloud data engineering and large-scale data processing systems. I am passionate about advancing computational methods in data science and making impactful contributions through research. 
 
-I am also a certified Canadian Association of Snowboard instructor(CASI)! feel free to hit me up if you're looking for some snow pal... or if you're just in the mood for a stylish new cast on your arm!
+I am also a certified Canadian Association of Snowboard instructor (CASI)! feel free to hit me up if you're looking for some snow pal... or if you're just in the mood for a stylish new cast on your arm!
 
 <br>
 <br>
