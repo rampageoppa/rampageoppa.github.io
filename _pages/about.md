@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Master’s student at Yale University, with a Biostatistics major in Data Science track. My research interests lie at the intersection of machine learning, natural language processing, and statistical modelling for all data-driven problems. 
+I am currently a first-year Master's student at Yale University, specializing in Biostatistics with a Data Science track. My research interests lie at the intersection of machine learning, natural language processing, and statistical modeling, aimed at solving diverse, data-driven problems.
 
-I completed my undergraduate in Computer Science and Statistics at the University of Toronto. Between my third year and last year of undergrads, I took a gap year roles at Huawei Technologies Canada, where I contributed to cloud data engineering and large-scale data processing systems. I am passionate about advancing computational methods in data science and making impactful contributions through research. 
+Previously, I completed my undergraduate studies in Computer Science and Statistics at the University of Toronto. Between my third and final years, I took a gap year to gain industry experience at Huawei Technologies Canada, where I contributed to cloud data engineering projects and large-scale data processing systems.
 
-I am also a certified Canadian Association of Snowboard instructor (CASI)! feel free to hit me up if you're looking for some snow pal... or if you're just in the mood for a stylish new cast on your arm!
+Currently, as a Research Assistant at Yale University, I am developing a Retrieval-Augmented Generation (RAG) GenAI system designed to predict upcoming projects of publicly traded companies. This involves estimating implementation costs and market values for robust economic and financial analyses. I have designed and implemented a Python pipeline to parse, sanitize, and embed over 2TB of diverse datasets—including SEC filings (10-K, 8-K), patents, Wall Street Journal articles, and press releases. My work integrates OpenAI embeddings with LangChain and Pinecone, creating isolated memory instances per company (gvkey) to prevent context accumulation, reducing token usage by 30%, and automating the extraction and computation of critical quantitative metrics. Through fine-tuning, this RAG model has achieved an 85% success rate in forecasting strategic projects, enabling scalable processing of extensive datasets.
+
+Outside the lab, I’m a certified instructor with the Canadian Association of Snowboard Instructors (CASI). If you're ever looking for a snowboarding buddy or simply aiming for a stylish new cast, feel free to reach out!
 
 <br>
 <br>
