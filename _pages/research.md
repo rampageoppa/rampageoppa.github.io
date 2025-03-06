@@ -4,7 +4,7 @@ title: "research"
 permalink: /Research/
 author_profile: true
 redirect_from:
-  - /research
+  - /research/
 ---
 
 
