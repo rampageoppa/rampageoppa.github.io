@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 
-## Research and Projects
 
 ![Graph showing relative cost](images/research_1.png) 
 
