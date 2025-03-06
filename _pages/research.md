@@ -9,7 +9,7 @@ redirect_from:
 
 
 
-![Graph showing relative cost](images/research_1.png) 
+![Graph showing relative cost](../images/research_1.png) 
 
 ### [SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects](https://arxiv.org/abs/2309.07445)
 David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba O. Alabi, Yanke Mao, **Haonan Gao**, Annie En-Shiun Lee. *The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024)*  
