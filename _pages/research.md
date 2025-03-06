@@ -19,7 +19,7 @@ A large-scale open-sourced benchmark dataset for topic classification in 200 lan
 ---
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="images/research_2.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px; vertical-align: top;">
+  <img src="../images/research_2.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px; vertical-align: top;">
   <div style="display: flex; flex-direction: column; justify-content: flex-start;">
     <h3><a href="https://www.atlantis-press.com/proceedings/isemss-22/125981882">A Diagnostic Question Analysis Model based on a Modified Item Response Theory</a></h3>
     
@@ -31,7 +31,7 @@ A large-scale open-sourced benchmark dataset for topic classification in 200 lan
 ---
 
 <div style="display: flex; align-items: flex-start;">
-  <img src="images/research_3.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px;">
+  <img src="../images/research_3.png" alt="Graph showing relative cost" style="width: 40%; margin-right: 20px;">
   <div>
     <h3><a href="https://github.com/rampageoppa/engineers-without-boarders-canada-t-main">Water For The World (W4TW)</a></h3>
     
