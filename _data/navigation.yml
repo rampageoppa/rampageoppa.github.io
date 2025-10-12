@@ -6,6 +6,9 @@
 
 main:
 
+  - title: "About me"
+    url: /
+
   - title: "CV"
     url: /files/Haonan Gao_CV_EN.pdf
     
