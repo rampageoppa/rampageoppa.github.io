@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a second-year Master's student at Yale University, specializing in Biostatistics with a Data Science track. My research interests lie at the intersection of machine learning, statistical modelling, and natural language processing, aimed at solving diverse, data-driven problems.
+I am currently a second-year Master's student at Yale University, specializing in Biostatistics with a Data Science track. My research interests lie at the intersection of machine learning, statistical modelling, and large-scale, multi-modal complex data.
 
 Previously, I completed my undergraduate studies in Computer Science and Statistics at the University of Toronto. Between my third and final years, I took a gap year to gain industry experience at Huawei Technologies Canada, where I contributed to cloud data engineering projects and large-scale data processing systems.
 
