@@ -9,10 +9,12 @@ main:
   - title: "About me"
     url: /
 
+  - title: "Research"
+    url: /research/  
+
   - title: "CV"
     url: /files/Haonan Gao_CV_EN.pdf
     
-  - title: "Research"
-    url: /research/  
+
     
 
