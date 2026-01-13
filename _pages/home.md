@@ -8,17 +8,13 @@ redirect_from:
 ---
 ## Background & Trajectory
 
-I am currently a second-year Master’s student in **Biostatistics (Data Science track)** at **Yale University**. My academic and applied interests center on statistical modeling and machine learning for high-dimensional, multi-modal data.
+I am currently a second-year Master’s student in **Biostatistics (Data Science track)** at **Yale University**. I work at the intersection of **machine learning, statistics, and real-world decision-making**, with applications in healthcare, finance, and enterprise analytics.
 
 Previously, I completed my undergraduate studies in **Computer Science and Statistics** at the **University of Toronto**. Between my third and final undergraduate years, I took a gap year to gain industry experience at **Huawei Technologies Canada**, where I worked on cloud data engineering and large-scale distributed data processing systems.
 
 ---
 
 ## What I Do
-
-Applied Data Scientist and Machine Learning Engineer with a strong research background in NLP, Retrieval-Augmented Generation (RAG), and large-scale data systems.  
-
-I work at the intersection of **machine learning, statistics, and real-world decision-making**, with applications in healthcare, finance, and enterprise analytics.
 
 - **Applied ML & Data Science**  
   I design end-to-end data science and machine learning pipelines, from raw data ingestion and feature construction to modeling, evaluation, and analysis, with an emphasis on robustness and real-world usability.
