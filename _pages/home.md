@@ -38,10 +38,10 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 ## Current Research & Applied Work
 
 - **Brain Connectivity Modeling (Yale University)**  
-  Working with Prof. Yize Zhao, I develop statistical and computational methods for structural–functional brain network modeling. My work includes low-rank and sparse matrix factorization, block and proximal coordinate descent algorithms, and synthetic-data pipelines to study identifiability and sparsity in high-dimensional neuroimaging data.
+  Working with [Prof. Yize Zhao](https://www.yizezhao.com/), I develop statistical and computational methods for structural–functional brain network modeling. My work includes low-rank and sparse matrix factorization, block and proximal coordinate descent algorithms, and synthetic-data pipelines to study identifiability and sparsity in high-dimensional neuroimaging data.
 
 - **Financial GenAI & RAG Systems (Yale University)**  
-  Working with Prof. Song Ma and Prof. Allen Hu, I am building a Retrieval-Augmented Generation (RAG) system to forecast strategic projects of publicly traded companies. The system processes over **2TB of heterogeneous text data** (SEC filings, patents, financial news) and produces structured estimates of implementation costs and market values, achieving **~85% forecasting accuracy** while reducing token usage by **~30%** through optimized memory management.
+  Working with [Prof. Song Ma](https://songma.github.io/) and [Prof. Allen Hu](https://www.allenanhu.com/), I am building a Retrieval-Augmented Generation (RAG) system to forecast strategic projects of publicly traded companies. The system processes over **2TB of heterogeneous text data** (SEC filings, patents, financial news) and produces structured estimates of implementation costs and market values, achieving **~85% forecasting accuracy** while reducing token usage by **~30%** through optimized memory management.
 
 ---
 
