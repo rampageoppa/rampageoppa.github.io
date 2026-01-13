@@ -4,12 +4,6 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
----
-layout: single
-title: "Projects"
-permalink: /projects/
-author_profile: true
----
 
 ## Applied Machine Learning & Data Science
 
