@@ -8,6 +8,7 @@ redirect_from:
 ## Hi, I'm Haonan (Eric) Gao
 
 Applied Data Scientist and Machine Learning Engineer with a strong research background in NLP, Retrieval-Augmented Generation (RAG), and large-scale data systems.  
+
 I work at the intersection of machine learning, statistics, and real-world decision-making, with applications in healthcare, finance, and enterprise analytics.
 
 ### What I do
@@ -18,4 +19,4 @@ I work at the intersection of machine learning, statistics, and real-world decis
 ### Quick links
 - **Projects**: applied / industry-facing projects
 - **Research**: publications and academic work
-- **CV**: full CV (PDF / page)
+- **CV**
