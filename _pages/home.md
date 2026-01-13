@@ -49,7 +49,7 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 - **Projects** – applied, industry-facing ML and data systems  
 - **Research** – publications and academic research  
-- **CV** – full curriculum vitae  
+- **CV**
 
 Outside of work, I am a certified instructor with the Canadian Association of Snowboard Instructors (CASI). If you enjoy snowboarding—or are looking for an excuse to start—feel free to reach out.
 
