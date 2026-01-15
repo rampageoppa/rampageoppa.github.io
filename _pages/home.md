@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'm Haonan (Eric) Gao"
+title: "Hi, I'm Haonan (Eric) Gao."
 author_profile: true
 redirect_from: 
   - /home/
@@ -39,9 +39,9 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 ## Learn More
 
-- **Projects** – applied, industry-facing ML and data systems  
-- **Research** – publications and academic research  
-- **CV**
+- [**Projects**](https://rampageoppa.github.io/projects/) – applied, industry-facing ML and data systems  
+- [**Research**](https://rampageoppa.github.io/research/) – publications and academic research  
+- [**CV**](https://rampageoppa.github.io/cv/)
 
 ---
 
