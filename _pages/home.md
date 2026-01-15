@@ -45,7 +45,7 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 ---
 
-Outside of work, I am a certified instructor with the ![Canadian Association of Snowboard Instructors (CASI)](../files/SnowboardInstructor.pdf). If you enjoy snowboarding—or are looking for an excuse to start—feel free to reach out.
+Outside of work, I am a certified instructor with the [Canadian Association of Snowboard Instructors (CASI)](../files/SnowboardInstructor.pdf). If you enjoy snowboarding—or are looking for an excuse to start—feel free to reach out.
 
 <br> 
 <br>
