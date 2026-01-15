@@ -6,7 +6,7 @@ redirect_from:
   - /home/
   - /home.html
 ---
-## Background & Trajectory
+## 🏛️ Background & Trajectory
 
 I am currently a second-year Master’s student in **Biostatistics (Data Science track)** at **Yale University**. I work at the intersection of **machine learning, statistics, and real-world decision-making**, with applications in healthcare, finance, and enterprise analytics.
 
@@ -14,7 +14,7 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 ---
 
-## What I Do
+## 💻 What I Do
 
 - **Applied ML & Data Science**  
   I design end-to-end data science and machine learning pipelines, from raw data ingestion and feature construction to modeling, evaluation, and analysis, with an emphasis on robustness and real-world usability.
@@ -27,7 +27,7 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 ---
 
-## Current Research & Applied Work
+## 📖 Current Research & Applied Work
 
 - **Brain Connectivity Modeling (Yale University)**  
   Working with [Prof. Yize Zhao](https://www.yizezhao.com/), I develop statistical and computational methods for structural–functional brain network modeling. My work includes low-rank and sparse matrix factorization, block and proximal coordinate descent algorithms, and synthetic-data pipelines to study identifiability and sparsity in high-dimensional neuroimaging data.
