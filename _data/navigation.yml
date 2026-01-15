@@ -11,8 +11,6 @@ main:
     url: /projects/
   - title: "Research"
     url: /research/
-  - title: "Experience"
-    url: /experience/
   - title: "CV"
     url: /cv/
 
