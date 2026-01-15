@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'm Haonan (Eric) Gao."
+title: "Hi, I'm Haonan (Eric) Gao 😊."
 author_profile: true
 redirect_from: 
   - /home/
