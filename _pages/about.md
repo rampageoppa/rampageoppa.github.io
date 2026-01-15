@@ -21,5 +21,3 @@ Outside the lab, I’m a certified instructor with the Canadian Association of S
 
 <br>
 <br>
-
-
