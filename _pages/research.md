@@ -10,6 +10,34 @@ redirect_from:
 <div class="research-grid">
 
   <article class="research-card featured">
+    <img src="../images/bayesian_hypergraph_inference.png" alt="Bayesian hypergraph inference framework" loading="lazy">
+    <div class="research-card-content">
+      <span class="research-tag">Bayesian Modeling</span>
+      <h3><a href="../files/18262_Disentangling_Latent_Ris.pdf">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</a></h3>
+      <p class="research-meta">ICML 2026 (under review)</p>
+      <p>
+        Proposes a Bayesian Hypergraph Pathway Inference framework for multi-disease EHR modeling,
+        with structured variational inference and a repulsion prior for interpretable, identifiable,
+        and uncertainty-aware pathway discovery.
+      </p>
+    </div>
+  </article>
+
+  <article class="research-card featured">
+    <img src="../images/oasissimp_results_table.png" alt="OasisSimp English benchmark results table" loading="lazy">
+    <div class="research-card-content">
+      <span class="research-tag">Multilingual NLP</span>
+      <h3><a href="../files/710_Paper.pdf">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</a></h3>
+      <p class="research-meta">LREC 2026</p>
+      <p>
+        Introduces a human-annotated simplification dataset across English, Sinhala, Tamil, Thai, and Pashto,
+        and benchmarks open-weight multilingual LLMs under zero-shot/few-shot settings to expose
+        high-resource vs low-resource performance gaps.
+      </p>
+    </div>
+  </article>
+
+  <article class="research-card">
     <img src="../images/research_1.png" alt="SIB-200 multilingual topic classification" loading="lazy">
     <div class="research-card-content">
       <span class="research-tag">Multilingual NLP</span>
@@ -81,33 +109,6 @@ redirect_from:
       <p>
         Explores ridge, LASSO, and elastic-net methods under summary-data settings for
         neurobiological and behavioral analysis without relying on conventional cross-validation.
-      </p>
-    </div>
-  </article>
-
-
-  <article class="research-card compact">
-    <div class="research-card-content">
-      <span class="research-tag">Multilingual NLP</span>
-      <h3><a href="../files/710_Paper.pdf">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</a></h3>
-      <p class="research-meta">LREC 2026</p>
-      <p>
-        Introduces a human-annotated simplification dataset across English, Sinhala, Tamil, Thai, and Pashto,
-        and benchmarks open-weight multilingual LLMs under zero-shot/few-shot settings to expose
-        high-resource vs low-resource performance gaps.
-      </p>
-    </div>
-  </article>
-
-  <article class="research-card compact">
-    <div class="research-card-content">
-      <span class="research-tag">Bayesian Modeling</span>
-      <h3><a href="../files/18262_Disentangling_Latent_Ris.pdf">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</a></h3>
-      <p class="research-meta">ICML 2026 (under review)</p>
-      <p>
-        Proposes a Bayesian Hypergraph Pathway Inference framework for multi-disease EHR modeling,
-        with structured variational inference and a repulsion prior for interpretable, identifiable,
-        and uncertainty-aware pathway discovery.
       </p>
     </div>
   </article>
