@@ -39,7 +39,6 @@ Previously, I completed my undergraduate studies in **Computer Science and Stati
 
 ## Learn More
 
-- [**Projects**](https://rampageoppa.github.io/projects/) – applied, industry-facing ML and data systems  
 - [**Research**](https://rampageoppa.github.io/research/) – publications and academic research  
 - [**CV**](https://rampageoppa.github.io/cv/)
 
