@@ -6,45 +6,100 @@ redirect_from:
   - /home/
   - /home.html
 ---
-## 🏛️ Background & Trajectory
 
-I am currently a second-year Master’s student in **Biostatistics (Data Science track)** at **Yale University**. I work at the intersection of **machine learning, statistics, and real-world decision-making**, with applications in healthcare, finance, and enterprise analytics.
+<div class="home-hero-card">
+  <p class="home-kicker">Welcome</p>
+  <h2>Biostatistics × AI × Real-world Systems</h2>
+  <p>
+    I am currently a second-year Master’s student in <strong>Biostatistics (Data Science track)</strong> at
+    <strong>Yale University</strong>, working at the intersection of machine learning, statistics, and practical decision systems.
+  </p>
+  <div class="home-chip-row">
+    <span class="home-chip">Machine Learning</span>
+    <span class="home-chip">Statistical Modeling</span>
+    <span class="home-chip">Healthcare & Finance</span>
+    <span class="home-chip">RAG Systems</span>
+  </div>
+</div>
 
-Previously, I completed my undergraduate studies in **Computer Science and Statistics** at the **University of Toronto**. Between my third and final undergraduate years, I took a gap year to gain industry experience at **Huawei Technologies Canada**, where I worked on cloud data engineering and large-scale distributed data processing systems.
+<div class="home-grid">
 
----
+  <article class="home-card featured">
+    <div class="home-card-content">
+      <span class="home-tag">🏛️ Background & Trajectory</span>
+      <p>
+        Previously, I completed my undergraduate studies in <strong>Computer Science and Statistics</strong> at
+        the <strong>University of Toronto</strong>. Between my third and final undergraduate years, I took a gap year at
+        <strong>Huawei Technologies Canada</strong>, where I focused on cloud data engineering and large-scale distributed
+        data processing systems.
+      </p>
+    </div>
+  </article>
 
-## 💻 What I Do
+  <article class="home-card">
+    <div class="home-card-content">
+      <span class="home-tag">💻 Applied ML & Data Science</span>
+      <p>
+        I design end-to-end ML pipelines from data ingestion and feature engineering to evaluation and deployment,
+        emphasizing robustness and decision utility in production settings.
+      </p>
+    </div>
+  </article>
 
-- **Applied ML & Data Science**  
-  I design end-to-end data science and machine learning pipelines, from raw data ingestion and feature construction to modeling, evaluation, and analysis, with an emphasis on robustness and real-world usability.
+  <article class="home-card">
+    <div class="home-card-content">
+      <span class="home-tag">🧠 NLP, LLMs & RAG</span>
+      <p>
+        I build retrieval-augmented generation systems over unstructured corpora (SEC filings, patents, news),
+        focusing on scalable retrieval and high-signal outputs for downstream analysis.
+      </p>
+    </div>
+  </article>
 
-- **NLP, LLMs & RAG Systems**  
-  I build retrieval-augmented generation systems over large unstructured corpora, including SEC filings, patents, and news articles, focusing on scalable retrieval, context isolation, and decision-oriented outputs.
+  <article class="home-card">
+    <div class="home-card-content">
+      <span class="home-tag">⚙️ Large-scale Infrastructure</span>
+      <p>
+        I have experience with terabyte-scale datasets and cloud-native ML stacks, integrating distributed
+        systems, vector databases, and performance-oriented data engineering.
+      </p>
+    </div>
+  </article>
 
-- **Large-Scale Data & ML Infrastructure**  
-  I have experience working with terabyte-scale datasets and cloud-native ML stacks, integrating distributed systems, vector databases, and performance-oriented data engineering.
+  <article class="home-card">
+    <div class="home-card-content">
+      <span class="home-tag">🧬 Current Research</span>
+      <p>
+        With <a href="https://www.yizezhao.com/">Prof. Yize Zhao</a>, I develop statistical/computational methods for
+        structural-functional brain network modeling, including low-rank + sparse factorization, proximal
+        coordinate methods, and synthetic pipelines for identifiability studies.
+      </p>
+    </div>
+  </article>
 
----
+  <article class="home-card">
+    <div class="home-card-content">
+      <span class="home-tag">📈 Financial GenAI Work</span>
+      <p>
+        With <a href="https://songma.github.io/">Prof. Song Ma</a> and
+        <a href="https://www.allenanhu.com/">Prof. Allen Hu</a>, I build a RAG system over <strong>2TB+</strong> of
+        financial text data, reaching <strong>~85% forecasting accuracy</strong> while reducing token usage by
+        <strong>~30%</strong> through memory optimization.
+      </p>
+    </div>
+  </article>
 
-## 📖 Current Research & Applied Work
+</div>
 
-- **Brain Connectivity Modeling (Yale University)**  
-  Working with [Prof. Yize Zhao](https://www.yizezhao.com/), I develop statistical and computational methods for structural–functional brain network modeling. My work includes low-rank and sparse matrix factorization, block and proximal coordinate descent algorithms, and synthetic-data pipelines to study identifiability and sparsity in high-dimensional neuroimaging data.
-
-- **Financial GenAI & RAG Systems (Yale University)**  
-  Working with [Prof. Song Ma](https://songma.github.io/) and [Prof. Allen Hu](https://www.allenanhu.com/), I am building a Retrieval-Augmented Generation (RAG) system to forecast strategic projects of publicly traded companies. The system processes over **2TB of heterogeneous text data** (SEC filings, patents, financial news) and produces structured estimates of implementation costs and market values, achieving **~85% forecasting accuracy** while reducing token usage by **~30%** through optimized memory management.
-
----
-
-## Learn More
-
-- [**Research**](https://rampageoppa.github.io/research/) – publications and academic research  
-- [**CV**](https://rampageoppa.github.io/cv/)
-
----
-
-Outside of work, I am a certified instructor with the [Canadian Association of Snowboard Instructors (CASI)](../files/SnowboardInstructor.pdf). If you enjoy snowboarding 🏂 —or are looking for an excuse to start—feel free to reach out.
-
-<br> 
-<br>
+<div class="home-links-panel">
+  <h3>Learn More</h3>
+  <ul>
+    <li><a href="https://rampageoppa.github.io/research/"><strong>Research</strong></a> – publications and projects</li>
+    <li><a href="https://rampageoppa.github.io/cv/"><strong>CV</strong></a> – full academic and professional profile</li>
+  </ul>
+  <p class="home-note">
+    Outside of work, I am a certified instructor with the
+    <a href="../files/SnowboardInstructor.pdf">Canadian Association of Snowboard Instructors (CASI)</a>.
+    If you enjoy snowboarding 🏂 —or want an excuse to start—feel free to reach out.
+  </p>
+</div>
