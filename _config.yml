@@ -26,7 +26,9 @@ author:
   pronouns         : "高浩男" 
   bio              : 
   location         : "360 State St, New Haven, CT"
+  location_url     : "https://maps.google.com/?q=360+State+St,+New+Haven,+CT"
   employer         : "Yale University"
+  employer_url     : "https://www.yale.edu/"
   uri              : # URL
   email            : "eric.gao@yale.edu" 
 
@@ -55,7 +57,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "wawawawawawawayu"
   lastfm           : # Username
   linkedin         : "haonan-gao"
   mastodon         : # URL

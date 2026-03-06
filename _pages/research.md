@@ -85,4 +85,31 @@ redirect_from:
     </div>
   </article>
 
+
+  <article class="research-card compact">
+    <div class="research-card-content">
+      <span class="research-tag">Multilingual NLP</span>
+      <h3><a href="../files/710_Paper.pdf">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</a></h3>
+      <p class="research-meta">LREC 2026</p>
+      <p>
+        Introduces a human-annotated simplification dataset across English, Sinhala, Tamil, Thai, and Pashto,
+        and benchmarks open-weight multilingual LLMs under zero-shot/few-shot settings to expose
+        high-resource vs low-resource performance gaps.
+      </p>
+    </div>
+  </article>
+
+  <article class="research-card compact">
+    <div class="research-card-content">
+      <span class="research-tag">Bayesian Modeling</span>
+      <h3><a href="../files/18262_Disentangling_Latent_Ris.pdf">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</a></h3>
+      <p class="research-meta">ICML 2026 (under review)</p>
+      <p>
+        Proposes a Bayesian Hypergraph Pathway Inference framework for multi-disease EHR modeling,
+        with structured variational inference and a repulsion prior for interpretable, identifiable,
+        and uncertainty-aware pathway discovery.
+      </p>
+    </div>
+  </article>
+
 </div>
