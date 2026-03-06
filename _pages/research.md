@@ -23,7 +23,7 @@ redirect_from:
     </div>
   </article>
 
-    <article class="research-card">
+  <article class="research-card">
     <img src="../images/research_1.png" alt="SIB-200 multilingual topic classification" loading="lazy">
     <div class="research-card-content">
       <span class="research-tag">Multilingual NLP</span>
