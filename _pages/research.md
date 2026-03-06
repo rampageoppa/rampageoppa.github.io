@@ -65,7 +65,7 @@ redirect_from:
     <img src="../images/research_5.png" alt="Stable Neo-Hookean flesh simulation visualization" loading="lazy">
     <div class="research-card-content">
       <span class="research-tag">Physics Simulation</span>
-      <h3><a href="../files/CSC417_Report.pdf">An approach for Stable Neo-Hookean Flesh Simulation</a> · <a href="../files/CSC417_Report.pdf">Paper</a></h3>
+      <h3><a href="https://github.com/rampageoppa/An-approch-for-Stable-Neo-Hookean-Flesh-Simulation">An approach for Stable Neo-Hookean Flesh Simulation</a> · <a href="../files/CSC417_Report.pdf">Paper</a></h3>
       <p class="research-meta">Computational Graphics</p>
       <p>
         A stable hyperelastic simulation method using closed-form spectral analysis and Hessian projection,
