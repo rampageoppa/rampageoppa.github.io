@@ -23,6 +23,19 @@ redirect_from:
     </div>
   </article>
 
+    <article class="research-card">
+    <img src="../images/research_1.png" alt="SIB-200 multilingual topic classification" loading="lazy">
+    <div class="research-card-content">
+      <span class="research-tag">Multilingual NLP</span>
+      <h3><a href="https://arxiv.org/abs/2309.07445">SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects</a></h3>
+      <p class="research-meta">EACL 2024</p>
+      <p>
+        A large-scale open-source benchmark for topic classification in 200+ languages and dialects,
+        designed to improve evaluation quality for multilingual NLU.
+      </p>
+    </div>
+  </article>
+
   <article class="research-card featured">
     <img src="../images/oasissimp_results_table.png" alt="OasisSimp English benchmark results table" loading="lazy">
     <div class="research-card-content">
@@ -33,19 +46,6 @@ redirect_from:
         Introduces a human-annotated simplification dataset across English, Sinhala, Tamil, Thai, and Pashto,
         and benchmarks open-weight multilingual LLMs under zero-shot/few-shot settings to expose
         high-resource vs low-resource performance gaps.
-      </p>
-    </div>
-  </article>
-
-  <article class="research-card">
-    <img src="../images/research_1.png" alt="SIB-200 multilingual topic classification" loading="lazy">
-    <div class="research-card-content">
-      <span class="research-tag">Multilingual NLP</span>
-      <h3><a href="https://arxiv.org/abs/2309.07445">SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects</a></h3>
-      <p class="research-meta">EACL 2024</p>
-      <p>
-        A large-scale open-source benchmark for topic classification in 200+ languages and dialects,
-        designed to improve evaluation quality for multilingual NLU.
       </p>
     </div>
   </article>
