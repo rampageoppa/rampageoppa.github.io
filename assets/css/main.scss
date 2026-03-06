@@ -39,3 +39,106 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Custom Research Page */
+.research-hero {
+  margin: 0.5rem 0 2rem;
+  padding: 1.25rem 1.25rem 1rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f6f8fb 0%, #ffffff 55%, #f5f6ff 100%);
+}
+
+.research-kicker {
+  margin: 0;
+  color: #5d6dff;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.research-hero h2 {
+  margin: 0.35rem 0 0.5rem;
+  font-size: clamp(1.3rem, 2.2vw, 2rem);
+  line-height: 1.2;
+}
+
+.research-hero p {
+  margin: 0;
+  color: #3c3c3c;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.research-card {
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(20, 20, 40, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(20, 20, 40, 0.09);
+}
+
+.research-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.research-card-content {
+  padding: 0.95rem 1rem 1.1rem;
+}
+
+.research-card h3 {
+  margin: 0.35rem 0;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.research-card p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.research-meta {
+  margin: 0.1rem 0 0.35rem;
+  color: #6f6f6f;
+  font-size: 0.85rem;
+}
+
+.research-tag {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #eef1ff;
+  color: #3f52d9;
+  font-weight: 700;
+  font-size: 0.73rem;
+}
+
+.research-card.featured {
+  grid-column: span 2;
+}
+
+.research-card.compact {
+  display: flex;
+  align-items: stretch;
+}
+
+@media (max-width: 850px) {
+  .research-card.featured {
+    grid-column: span 1;
+  }
+}
