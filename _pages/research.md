@@ -7,15 +7,6 @@ redirect_from:
   - /research/
 ---
 
-<div class="research-hero">
-  <p class="research-kicker">Research Highlights</p>
-  <h2>Building multilingual, practical, and human-centered AI systems.</h2>
-  <p>
-    My work spans multilingual NLP, statistical learning, educational data mining, and simulation.
-    I focus on making models more robust, inclusive, and useful in real-world settings.
-  </p>
-</div>
-
 <div class="research-grid">
 
   <article class="research-card featured">
