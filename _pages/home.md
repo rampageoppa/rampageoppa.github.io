@@ -9,7 +9,6 @@ redirect_from:
 
 <div class="home-hero-card">
   <p class="home-kicker">Welcome</p>
-  <h2>Biostatistics × AI × Real-world Systems</h2>
   <p>
     I am currently a second-year Master’s student in <strong>Biostatistics (Data Science track)</strong> at
     <strong>Yale University</strong>, working at the intersection of machine learning, statistics, and practical decision systems.
@@ -17,8 +16,10 @@ redirect_from:
   <div class="home-chip-row">
     <span class="home-chip">Machine Learning</span>
     <span class="home-chip">Statistical Modeling</span>
-    <span class="home-chip">Healthcare & Finance</span>
-    <span class="home-chip">RAG Systems</span>
+    <span class="home-chip">High-dimensional and large-scale data analysis</span>
+    <span class="home-chip">NLP / LLM</span>
+    <span class="home-chip">Optimization</span>
+    <span class="home-chip">Data Science</span>
   </div>
 </div>
 
@@ -29,9 +30,9 @@ redirect_from:
       <span class="home-tag">🏛️ Background & Trajectory</span>
       <p>
         Previously, I completed my undergraduate studies in <strong>Computer Science and Statistics</strong> at
-        the <strong>University of Toronto</strong>. Between my third and final undergraduate years, I took a gap year at
-        <strong>Huawei Technologies Canada</strong>, where I focused on cloud data engineering and large-scale distributed
-        data processing systems.
+        the <strong>University of Toronto</strong>. I have since gained several industry and research experiences working on 
+        <strong>machine learning, large-scale data systems, and statistical modeling</strong>, with a focus on building 
+        scalable data pipelines and applying ML methods to real-world datasets.
       </p>
     </div>
   </article>
