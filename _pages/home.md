@@ -37,39 +37,39 @@ redirect_from:
     </div>
   </article>
 
-  <article class="home-card">
-    <div class="home-card-content">
-      <span class="home-tag">💻 Applied ML & Data Science</span>
-      <p>
-        I design end-to-end ML pipelines from data ingestion and feature engineering to evaluation and deployment,
-        emphasizing robustness and decision utility in production settings.
-      </p>
-    </div>
-  </article>
+<article class="home-card">
+  <div class="home-card-content">
+    <span class="home-tag">💻 Applied Machine Learning</span>
+    <p>
+      I build and deploy machine learning models for real-world applications, covering the full workflow 
+      from data preparation and feature engineering to model training, evaluation, and production deployment.
+    </p>
+  </div>
+</article>
+
+<article class="home-card">
+  <div class="home-card-content">
+    <span class="home-tag">📊 Data Science & Statistical Modeling</span>
+    <p>
+      I apply statistical modeling and data science techniques to extract insights from complex and 
+      high-dimensional datasets, with an emphasis on robust analysis and data-driven decision making.
+    </p>
+  </div>
+</article>
+
+<article class="home-card">
+  <div class="home-card-content">
+    <span class="home-tag">⚙️ AI Systems & Scalable Data</span>
+    <p>
+      I design scalable data and AI systems for large datasets, working with distributed data processing, 
+      modern ML infrastructure, and efficient pipelines for large-scale machine learning workflows.
+    </p>
+  </div>
+</article>
 
   <article class="home-card">
     <div class="home-card-content">
-      <span class="home-tag">🧠 NLP, LLMs & RAG</span>
-      <p>
-        I build retrieval-augmented generation systems over unstructured corpora (SEC filings, patents, news),
-        focusing on scalable retrieval and high-signal outputs for downstream analysis.
-      </p>
-    </div>
-  </article>
-
-  <article class="home-card">
-    <div class="home-card-content">
-      <span class="home-tag">⚙️ Large-scale Infrastructure</span>
-      <p>
-        I have experience with terabyte-scale datasets and cloud-native ML stacks, integrating distributed
-        systems, vector databases, and performance-oriented data engineering.
-      </p>
-    </div>
-  </article>
-
-  <article class="home-card">
-    <div class="home-card-content">
-      <span class="home-tag">🧬 Current Research</span>
+      <span class="home-tag">🧬 Current Research on Brain SC-FC Connectivity</span>
       <p>
         With <a href="https://www.yizezhao.com/">Prof. Yize Zhao</a>, I develop statistical/computational methods for
         structural-functional brain network modeling, including low-rank + sparse factorization, proximal
@@ -80,7 +80,7 @@ redirect_from:
 
   <article class="home-card">
     <div class="home-card-content">
-      <span class="home-tag">📈 Financial GenAI Work</span>
+      <span class="home-tag">📈 Current Research on Financial GenAI Work</span>
       <p>
         With <a href="https://songma.github.io/">Prof. Song Ma</a> and
         <a href="https://www.allenanhu.com/">Prof. Allen Hu</a>, I build a RAG system over <strong>2TB+</strong> of
