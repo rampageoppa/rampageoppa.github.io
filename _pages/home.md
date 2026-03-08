@@ -69,7 +69,7 @@ redirect_from:
 
   <article class="home-card">
     <div class="home-card-content">
-      <span class="home-tag">🧬 Current Research on Brain SC-FC Connectivity</span>
+      <span class="home-tag">🧬 Current Work on Brain SC-FC Connectivity</span>
       <p>
         With <a href="https://www.yizezhao.com/">Prof. Yize Zhao</a>, I develop statistical/computational methods for
         structural-functional brain network modeling, including low-rank + sparse factorization, proximal
@@ -80,7 +80,7 @@ redirect_from:
 
   <article class="home-card">
     <div class="home-card-content">
-      <span class="home-tag">📈 Current Research on Financial GenAI Work</span>
+      <span class="home-tag">📈 Current Work on Financial GenAI Work</span>
       <p>
         With <a href="https://songma.github.io/">Prof. Song Ma</a> and
         <a href="https://www.allenanhu.com/">Prof. Allen Hu</a>, I build a RAG system over <strong>2TB+</strong> of
