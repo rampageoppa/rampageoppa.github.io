@@ -14,7 +14,7 @@ redirect_from:
     <div class="research-card-content">
       <span class="research-tag">Bayesian Modeling</span>
       <h3><a href="../files/18262_Disentangling_Latent_Ris.pdf">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</a></h3>
-      <p class="research-meta">ICML 2026 (under review)</p>
+      <p class="research-meta">ICML 2026 Spotlight paper</p>
       <p>
         Proposes a Bayesian Hypergraph Pathway Inference framework for multi-disease EHR modeling,
         with structured variational inference and a repulsion prior for interpretable, identifiable,
