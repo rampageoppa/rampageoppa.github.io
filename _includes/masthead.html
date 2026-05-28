@@ -15,8 +15,37 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item">
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <script>
+          (function() {
+            var btn = document.getElementById('theme-toggle');
+            if (!btn) return;
+            function updateIcon() {
+              var t = document.documentElement.getAttribute('data-theme');
+              btn.textContent = t === 'dark' ? '☀️' : '🌙';
+            }
+            updateIcon();
+            btn.addEventListener('click', function() {
+              var current = document.documentElement.getAttribute('data-theme');
+              var next = current === 'dark' ? 'light' : 'dark';
+              document.documentElement.setAttribute('data-theme', next);
+              try { localStorage.setItem('theme', next); } catch (e) {}
+              updateIcon();
+            });
+            if (window.matchMedia) {
+              window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+                if (!localStorage.getItem('theme')) {
+                  document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+                  updateIcon();
+                }
+              });
+            }
+          })();
+        </script>
       </nav>
     </div>
   </div>
