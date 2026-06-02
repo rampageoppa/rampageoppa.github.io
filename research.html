@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Haonan (Eric) Gao</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="images/profile.jpg" alt="Haonan Gao">
+        <span>
+          <span class="nm">Haonan (Eric) Gao</span><br>
+          <span class="sb">M.S. in Biostatistics at Yale University</span>
+        </span>
+      </a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a class="active" href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="activities.html">Activities</a>
+        <a href="contact.html">Contact</a>
+        <a href="files/Haonan_Gao_CV.pdf" target="_blank">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="page-head">
+      <h1>Selected Research Projects</h1>
+    </div>
+
+    <!-- ===== Theme: Brain connectivity ===== -->
+    <div class="theme-block" id="brain">
+      <p class="eyebrow">Research theme</p>
+      <h2>Brain connectivity &amp; statistical neuroimaging</h2>
+
+      <!-- PROJECT: swap images/ossa.png for your figure; keep/remove links as needed -->
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/ossa.png" alt="Orthogonal sparse subgraph alignment">
+          <figcaption>OSSA pipeline: construct functional communities, learn a within-community orthogonal alignment with sparse node selection, and recover compact structural subgraphs concordant with function.</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>Orthogonal Sparse Subgraph Alignment for Structure-Function Coupling in Brain Networks</h3>
+          <p class="pmeta"><b>2026 | NeurIPS</b> <span class="pbadge">Under review</span></p>
+          <p class="pdesc">
+            A principled statistical framework that localizes cross-modal subnetworks in structure&ndash;function
+            (SC&ndash;FC) coupling by jointly learning an orthogonal transformation and a sparse node-selection
+            vector. It generalizes orthogonal Procrustes to an unknown induced-subgraph target, comes with
+            consistency guarantees, and achieves state-of-the-art SC&ndash;FC alignment on the ABCD study,
+            outperforming nine size-matched and deep-learning baselines.
+          </p>
+          <div class="plinks">
+            <a href="#" target="_blank">Publication</a>
+            <a href="#" target="_blank">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Theme: Bayesian biomedical ===== -->
+    <div class="theme-block" id="bayesian">
+      <p class="eyebrow">Research theme</p>
+      <h2>Probabilistic modeling for multimorbidity in longitudinal health data</h2>
+
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/bayesian_hypergraph_inference.png" alt="Bayesian hypergraph pathway inference">
+          <figcaption>Bayesian hypergraph workflow linking patient covariates and disease outcomes to latent disease clusters and shared risk pathways.</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</h3>
+          <p class="pmeta"><b>2026 | ICML,</b> <span class="pbadge">Oral</span> (0.7% acceptance)</p>
+          <p class="pdesc">
+            A Bayesian hypergraph framework for longitudinal EHR that jointly models multiple disease onsets and survival, 
+            discovers risk-factor-specific higher-order disease clusters, and scales to large biobank data through structured 
+            mean field variational inference.
+          </p>
+          <div class="plinks">
+            <a href="#" target="_blank">Publication</a>
+            <a href="files/18262_Disentangling_Latent_Ris.pdf" target="_blank">Article</a>
+            <a href="#">Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Theme: Multilingual NLP ===== -->
+    <div class="theme-block" id="nlp">
+      <p class="eyebrow">Research theme</p>
+      <h2>Multilingual NLP &amp; LLM evaluation</h2>
+
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/Multilingual_NLP.png" alt="OasisSimp dataset">
+          <figcaption>Complex sentences paired with expert simplifications across English, Sinhala, Tamil, Thai, and Pashto, annotated with edit operations (deletion, rewording).</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>OasisSimp: An Open-source Asian&ndash;English Sentence Simplification Dataset</h3>
+          <p class="pmeta"><b>2026 | LREC,</b> <span class="pbadge">Oral</span></p>
+          <p class="pdesc">
+            An open-source sentence-simplification dataset for five languages (English, Sinhala, Tamil, Thai,
+            Pashto) with expert human simplifications, benchmarking eight open-weight multilingual LLMs in
+            zero-/few-shot settings to expose low-resource simplification gaps.
+          </p>
+          <div class="plinks">
+            <a href="https://oasissimpdataset.github.io/" target="_blank">Website</a>
+            <a href="https://oasissimpdataset.github.io/OasisSimp.zip" target="_blank">Dataset</a>
+            <a href="files/OasisSimp.pdf" target="_blank">Article</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/multimwp.png" alt="MultiMWP corpus">
+          <figcaption>MultiMWP generation pipeline: token embeddings drive an MWP generator and equation generator, trained under an equation-consistency constraint and reconstruction loss.</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>A Multilingual Dataset (MultiMWP) and Benchmark for Math Word Problem Generation</h3>
+          <p class="pmeta"><b>2025 | IEEE/ACM TASLP</b> (Vol. 33)</p>
+          <p class="pdesc">
+            The largest multi-way parallel math-word-problem corpus to date, spanning nine languages
+            (six low-resource), benchmarking pretrained multilingual seq2seq models (mBART50, mT5, M2M-100,
+            IndicBART) with a math-constraint generation module.
+          </p>
+          <div class="plinks">
+            <a href="https://ieeexplore.ieee.org/abstract/document/10933586" target="_blank">Publication</a>
+            <a href="files/A_Multilingual_Dataset_MultiMWP_and_Benchmark_for_Math_Word_Problem_Generation.pdf" target="_blank">Article</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/sib200.png" alt="SIB-200 benchmark">
+          <figcaption>Topic-classification accuracy across 200+ languages and dialects for several multilingual models, exposing the gap between high-resource and unseen low-resource languages.</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects</h3>
+          <p class="pmeta"><b>2024 | EACL</b></p>
+          <p class="pdesc">
+            A topic-classification benchmark covering 205 languages and dialects (the first NLU evaluation set
+            for many of them), built on the Flores-200 parallel corpus, with evaluation of multilingual PLMs
+            under supervised, cross-lingual transfer, and LLM-prompting settings.
+          </p>
+          <div class="plinks">
+            <a href="https://aclanthology.org/2024.eacl-long.14/" target="_blank">Publication</a>
+            <a href="files/2024.eacl-long.14.pdf" target="_blank">Article</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Theme: Financial GenAI ===== -->
+    <div class="theme-block" id="genai">
+      <p class="eyebrow">Research theme</p>
+      <h2>Financial GenAI &amp; large-scale retrieval</h2>
+
+      <div class="project">
+        <figure class="pfig">
+          <img src="images/financialGenAI.png" alt="Financial LLM-RAG pipeline">
+          <figcaption>LLM&ndash;RAG pipeline: text processing and embedding, multi-stage retrieval with no-look-ahead constraints, evidence compression, and constrained project generation with optional QLoRA calibration.</figcaption>
+        </figure>
+        <div class="pbody">
+          <h3>End-to-end LLM&ndash;RAG Pipeline for Financial Estimates</h3>
+          <p class="pmeta"><b>Ongoing</b></p>
+          <p class="pdesc">
+            An end-to-end LLM&ndash;RAG system over 2TB+ of heterogeneous financial text (SEC 10-K filings, USPTO
+            patents, earnings-call transcripts, WSJ articles) with multi-stage semantic retrieval, strict
+            no-look-ahead temporal constraints, and high-throughput batched serving &mdash; improving
+            project-identification accuracy over a keyword-retrieval baseline.
+          </p>
+          <div class="plinks">
+            <a href="#" target="_blank">Publication</a>
+            <a href="#" target="_blank">Article</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== Industry experience ===== -->
+    <div class="theme-block" id="experience">
+      <p class="eyebrow">Industry</p>
+
+      <div class="project no-fig">
+        <div class="pbody">
+          <h3>Machine Learning Engineer &mdash; DeepManifold Inc., New York</h3>
+          <p class="pmeta"><b>Part-time Intern</b> &middot; Sep 2025 &ndash; Dec 2025</p>
+          <p class="pdesc">
+            Built a customer embedding platform using sequence models (Word2Vec, Transformer) and contrastive
+            self-supervised learning (SimCLR, MoCo) for 50M+ users, and operationalized segmentation workflows
+            (KMeans, GMM, DBSCAN, extended RFM) &mdash; personalized campaigns increased CTR by 14% and reduced
+            churn by 9% in controlled experiments.
+          </p>
+        </div>
+      </div>
+
+      <div class="project no-fig">
+        <div class="pbody">
+          <h3>Cloud Data Engineer &mdash; Huawei Technologies Canada, Toronto</h3>
+          <p class="pmeta"><b>Full-time</b> &middot; Apr 2022 &ndash; May 2023</p>
+          <p class="pdesc">
+            Developed a distributed, low-latency data engine and an InfluxDB connector for cross-data-center
+            migration across 40+ databases &mdash; now deployed at top-5 banks in China serving 3M+ users &mdash;
+            and implemented SQL predicate push-down that improved TPC-H 1000GB query speed by an average of 20%.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="nm">Haonan (Eric) Gao</div>
+        <div class="sb">M.S. in Biostatistics (Data Science Track) at Yale University</div>
+      </div>
+      <div class="rt">
+        New Haven, CT &middot; (+1) 203-675-5865<br>
+        <a href="mailto:eric.gao@yale.edu">eric.gao@yale.edu</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

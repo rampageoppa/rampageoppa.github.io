@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications — Haonan (Eric) Gao</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img src="images/profile.jpg" alt="Haonan Gao">
+        <span>
+          <span class="nm">Haonan (Eric) Gao</span><br>
+          <span class="sb">M.S. in Biostatistics at Yale University</span>
+        </span>
+      </a>
+      <nav class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="publications.html">Publications</a>
+        <a href="activities.html">Activities</a>
+        <a href="contact.html">Contact</a>
+        <a href="files/Haonan_Gao_CV.pdf" target="_blank">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="page-head">
+      <h1>Publications</h1>
+    </div>
+
+    <h3 class="year">2026</h3>
+    <hr class="year-rule">
+
+    <div class="pub">
+      <p class="pt">Orthogonal Sparse Subgraph Alignment for Structure&ndash;Function Coupling in Brain Networks</p>
+      <p class="au"><span class="me">Haonan Gao</span>, Daeyoung Ham, Yifei Zhang, Xinyuan Tian, Shengxian Ding, Yize Zhao, Tianxi Li</p>
+      <p class="ve">Under Review — 40th Conference on Neural Information Processing Systems (NeurIPS 2026)</p>
+      <div class="tags"><span class="tag">Statistical Neuroimaging</span><span class="tag">Brain Connectomics</span><span class="tag">Sparse Optimization</span><span class="tag">Multimodal Data Fusion</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">Characterizing the relationship between brain anatomical wiring and functional coordination remains a fundamental challenge in 
+          computational neuroscience. This difficulty primarily arises because structure-function coupling in the human brain is spatially heterogeneous, 
+          often localized to subnetworks, and inherently difficult to align across disparate representational modalities. To address this methodological gap, 
+          we introduce Orthogonal Sparse Subgraph Alignment (Ossa), a principled and interpretable framework designed to identify compact structural cliques that 
+          exhibit maximal concordance with functional connectivity (FC) across subjects. Within each FC-derived community, optimizes an alignment objective over 
+          an orthogonal transformation, which absorbs coordinate mismatch between the two connectivity modalities, and a sparse node-selection vector, which 
+          identifies the induced structural connectivity (SC) subgraph. Furthermore, we establish theoretical properties for the estimator, demonstrating its 
+          statistical consistency in recovering the true underlying SC clique within each functional community. Extensive empirical evaluations on simulated data, 
+          alongside analyses of the Adolescent Brain Cognitive Development (ABCD) baseline and longitudinal cohorts, demonstrate that successfully recovers aligned 
+          structural cliques under latent cross-modal rotations. Ultimately, the proposed methodology significantly improves out-of-sample SC-FC alignment over 
+          size-matched baselines and robustly identifies stable, single-core topological structures within human brain networks.</div>
+      </details>
+    </div>
+
+    <div class="pub">
+      <p class="pt">Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference</p>
+      <p class="au">Shengxian Ding, <span class="me">Haonan Gao</span>, Pangpang Liu, Xinyuan Tian, Yize Zhao</p>
+      <p class="ve">43rd International Conference on Machine Learning (ICML 2026) — Spotlight &amp; Oral</p>
+      <div class="tags"><span class="tag">Bayesian Inference</span><span class="tag">Variational Inference</span><span class="tag">Hypergraph Modeling</span><span class="tag">Electronic Health Records</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">Electronic health records (EHR) pose large-scale multi-disease modeling problems in which many outcomes are rare and strongly influenced 
+          by shared risk factors. While modern approaches achieve strong predictive performance, they often treat diseases independently or rely on black-box 
+          architectures, offering limited insight into how risk factors organize disease risk and little principled uncertainty quantification. We introduce a 
+          Bayesian hypergraph inference framework that reframes multi-disease modeling around latent, risk-factor-modulated disease pathways. Risk factors act on 
+          hyperedges, latent disease subsets with shared risk patterns, allowing diseases to participate in multiple distinct pathways and enabling interpretable, 
+          higher-order structure beyond pairwise associations. A repulsion prior encourages parsimonious and identifiable structure, while posterior inference provides 
+          calibrated uncertainty over both disease groupings and risk-factor influence. To enable scalable inference on large EHR datasets, we develop a structured 
+          variational inference algorithm that preserves logical dependencies among hyperedge existence, disease membership, and pathway-level effects. Experiments 
+          on simulated data and UK Biobank demonstrate stable and interpretable disease pathway structure, well-calibrated uncertainty, improved estimation for 
+          rare diseases, and competitive predictive performance.</div>
+      </details>
+    </div>
+
+    <div class="pub">
+      <p class="pt">OasisSimp: An Open-source Asian-English Sentence Simplification Dataset</p>
+      <p class="au">Hannah Liu, Muxin Tian, Iqra Ali, <span class="me">Haonan Gao</span>, Qiaoyiwen Wu, Blair Yang, Uthayasanker Thayasivam, Annie En-Shiun Lee, Pakawat Nakwijit, Surangika Ranathunga, Ravi Shekhar</p>
+      <p class="ve">15th Language Resources and Evaluation Conference (LREC 2026) — Oral</p>
+      <div class="tags"><span class="tag">Text Simplification</span><span class="tag">Multilingual NLP</span><span class="tag">Low-Resource Languages</span><span class="tag">LLM Evaluation</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">Sentence simplification aims to make complex text more accessible by reducing linguistic complexity while preserving
+          the original meaning. However, progress in this area remains limited for mid-resource and low-resource languages
+          due to the scarcity of high-quality data. To address this gap, we introduce the OasisSimp dataset, a multilingual
+          dataset for sentence-level simplification covering five languages: English, Sinhala, Tamil, Pashto, and Thai. Among
+          these, no prior sentence simplification datasets exist for Thai, Pashto, and Tamil, while limited data is available for
+          Sinhala. Each language simplification dataset was created by trained annotators who followed detailed guidelines to
+          simplify sentences while maintaining meaning, fluency, and grammatical correctness. We evaluate eight open-weight
+          multilingual Large Language Models (LLMs) on the OasisSimp dataset and observe substantial performance
+          disparities between high-resource and low-resource languages, highlighting the simplification challenges in
+          multilingual settings. The OasisSimp dataset thus provides both a valuable multilingual resource and a challenging
+          benchmark, revealing the limitations of current LLM-based simplification methods and paving the way for future
+          research in low-resource sentence simplification. </div>
+      </details>
+    </div>
+
+    <h3 class="year">2025</h3>
+    <hr class="year-rule">
+
+    <div class="pub">
+      <p class="pt">A Multilingual Dataset (MultiMWP) and Benchmark for Math Word Problem Generation</p>
+      <p class="au">Gamage O. Ishendra, Surangika Ranathunga, Annie En-Shiun Lee, Mehreen Alam, <span class="me">Haonan Gao</span>, et al.</p>
+      <p class="ve">IEEE/ACM Transactions on Audio, Speech, and Language Processing, Vol. 33, pp. 1838&ndash;1848</p>
+      <div class="tags"><span class="tag">Natural Language Generation</span><span class="tag">Multilingual NLP</span><span class="tag">Low-Resource Languages</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">We present a multi-way parallel corpus of Math Word Problems (MWPs) in nine languages, including six low-resource languages. To date, 
+          this is the largest multilingual MWP dataset available. We utilize this dataset and show the viability of using pre-trained multilingual sequence-sequence 
+          language models (prMSLMs) for autoregressive MWP generation in both monolingual and multilingual setups, particularly for low-resource languages. We also 
+          integrate a math constraint satisfaction module with autoregressive text generation. Our extensive evaluations identify several factors that affect 
+          autoregressive text generation on prMSLMs. These include language representation in the model, model size, existence of similar languages in the model, 
+          and language script. Overall, our results reveal that autoregressive MWP generation on top of prMSLMs is very promising, even for low-resource languages.</div>
+      </details>
+    </div>
+
+    <h3 class="year">2024</h3>
+    <hr class="year-rule">
+
+    <div class="pub">
+      <p class="pt">SIB-200: A Simple, Inclusive, and Big Evaluation Dataset for Topic Classification in 200+ Languages and Dialects</a></p>
+      <p class="au">David Ifeoluwa Adelani, Hannah Liu, Xiaoyu Shen, Nikita Vassilyev, Jesujoba O. Alabi, Yanke Mao, <span class="me">Haonan Gao</span>, Annie En-Shiun Lee</p>
+      <p class="ve">18th Conference of the European Chapter of the ACL (EACL 2024), pp. 226&ndash;245</p>
+      <div class="tags"><span class="tag">Multilingual NLU</span><span class="tag">Topic Classification</span><span class="tag">Cross-Lingual Transfer</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">Despite the progress in building multilingual language models, evaluation is often limited to a few languages with available datasets 
+          which excludes a large number of low-resource languages. In this paper, we create SIB-200—a large-scale open-sourced benchmark dataset for topic 
+          classification in 205 languages and dialects to address the lack of evaluation dataset for Natural Language Understanding (NLU). For many of the languages 
+          covered in SIB-200, this is the first publicly available evaluation dataset for NLU. The dataset is based on Flores-200 machine translation corpus. 
+          We annotated the English portion of the dataset and extended the sentence-level annotation to the remaining 204 languages covered in the corpus. Despite 
+          the simplicity of this task, our evaluation in full-supervised setting, cross-lingual transfer setting and prompting of large language model setting 
+          show that there is still a large gap between the performance of high-resource and low-resource languages when multilingual evaluation is scaled to numerous 
+          world languages. We found that languages unseen during the pre-training of multilingual language models, languages from under-represented families 
+          (like Nilotic and Altantic-Congo), and languages from the regions of Africa, Americas, Oceania and South East Asia, often have the lowest performance on 
+          our topic classification dataset. We hope our dataset% will encourages a more inclusive evaluation of multilingual language models on a more diverse set 
+          of languages.</div>
+      </details>
+    </div>
+
+    <h3 class="year">2022</h3>
+    <hr class="year-rule">
+
+    <div class="pub">
+      <p class="pt">A Diagnostic Question Analysis Model based on a Modified Item Response Theory</p>
+      <p class="au"><span class="me">Haonan Gao</span></p>
+      <p class="ve">6th International Seminar on Education, Management and Social Sciences (ISEMSS 2022), Atlantis Press</p>
+      <div class="tags"><span class="tag">Item Response Theory</span><span class="tag">Educational Data Mining</span><span class="tag">Psychometrics</span></div>
+      <details class="abs">
+        <summary>Abstract preview</summary>
+        <div class="abs-body">Digital technologies are being more widely used in education, allowing students all around the world to access individualized, 
+          high-quality educational resources. This paper analyzes a massive amounts of data derived from students’ interactions with these diagnostic questions 
+          can help us more accurately understand the students’ learning status and thus allow us to automate learning curriculum recommendations, as evidenced by 
+          thousands of examples of students’ answers to mathematics questions provided by The NeurlIPS 2020 Education Challenge [1, 2]. In this paper, a new 
+          generated model based on Item Response Theory (IRT) is put forward. Additionally, with discrimination parameter added and classification by groups, 
+          the model on real-world dataset is verified.</div>
+      </details>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="nm">Haonan (Eric) Gao</div>
+        <div class="sb">M.S. in Biostatistics (Data Science Track), Yale University</div>
+      </div>
+      <div class="rt">
+        New Haven, CT &middot; (+1) 203-675-5865<br>
+        <a href="mailto:eric.gao@yale.edu">eric.gao@yale.edu</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
