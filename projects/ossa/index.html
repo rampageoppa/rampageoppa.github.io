@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSSA: Orthogonal Sparse Subgraph Alignment | NeurIPS 2026</title>
+  <meta name="description" content="OSSA jointly learns an orthogonal alignment and sparse structural supports to study structure-function coupling in brain networks. NeurIPS 2026.">
+  <link rel="canonical" href="https://rampageoppa.github.io/projects/ossa/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Orthogonal Sparse Subgraph Alignment for Structure-Function Coupling in Brain Networks">
+  <meta property="og:description" content="Joint cross-modal alignment and sparse subgraph selection for brain structure-function coupling. NeurIPS 2026.">
+  <meta property="og:url" content="https://rampageoppa.github.io/projects/ossa/">
+  <meta property="og:image" content="https://rampageoppa.github.io/projects/ossa/assets/pipeline_graph.png">
+  <meta property="og:image:alt" content="OSSA pipeline: functional communities, orthogonal alignment, and sparse structural support discovery.">
+  <meta property="og:image:width" content="2488">
+  <meta property="og:image:height" content="976">
+  <meta name="citation_title" content="Orthogonal Sparse Subgraph Alignment for Structure-Function Coupling in Brain Networks">
+  <meta name="citation_author" content="Haonan Gao">
+  <meta name="citation_author" content="Daeyoung Ham">
+  <meta name="citation_author" content="Yifei Zhang">
+  <meta name="citation_author" content="Xinyuan Tian">
+  <meta name="citation_author" content="Shengxian Ding">
+  <meta name="citation_author" content="Yize Zhao">
+  <meta name="citation_author" content="Tianxi Li">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="40th Conference on Neural Information Processing Systems (NeurIPS 2026)">
+  <meta name="citation_pdf_url" content="https://rampageoppa.github.io/files/OSSA_camera_ready.pdf">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="ossa.css">
+</head>
+<body class="ossa-page">
+  <a class="ossa-skip" href="#main">Skip to content</a>
+  <header class="ossa-topbar">
+    <div class="ossa-wrap ossa-topbar-inner">
+      <a class="ossa-back" href="../../index.html"><span aria-hidden="true">←</span> Haonan (Eric) Gao</a>
+      <nav class="ossa-nav" aria-label="Project navigation">
+        <a href="#overview">Overview</a>
+        <a href="#method">Method</a>
+        <a href="#results">Results</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="ossa-wrap ossa-hero" aria-labelledby="paper-title">
+      <p class="ossa-venue">NeurIPS 2026 <span aria-hidden="true">·</span> Poster</p>
+      <h1 id="paper-title">Orthogonal Sparse Subgraph Alignment for Structure-Function Coupling in Brain Networks</h1>
+      <p class="ossa-deck">Learning cross-modal alignment and compact structural supports, together.</p>
+      <div class="ossa-authors" aria-label="Authors">
+        <span><a href="../../index.html">Haonan Gao</a><sup>1</sup></span>
+        <span>Daeyoung Ham<sup>2</sup></span>
+        <span>Yifei Zhang<sup>1</sup></span>
+        <span>Xinyuan Tian<sup>1</sup></span>
+        <span>Shengxian Ding<sup>1</sup></span>
+        <span>Yize Zhao<sup>1,†</sup></span>
+        <span>Tianxi Li<sup>3,†</sup></span>
+      </div>
+      <div class="ossa-affiliations">
+        <p><sup>1</sup> Department of Biostatistics, Yale School of Public Health, Yale University</p>
+        <p><sup>2</sup> Department of Statistics and Data Science, University of Texas at San Antonio</p>
+        <p><sup>3</sup> School of Statistics, University of Minnesota, Twin Cities</p>
+      </div>
+      <p class="ossa-correspondence"><sup>†</sup> Corresponding authors: <a href="mailto:yize.zhao@yale.edu">Yize Zhao</a> and <a href="mailto:tianxili@umn.edu">Tianxi Li</a></p>
+      <div class="ossa-actions">
+        <a class="btn primary" href="../../files/OSSA_camera_ready.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
+        <a class="btn ghost" href="../../files/OSSA.bib" download>Download BibTeX <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section id="method" class="ossa-wrap ossa-method" aria-labelledby="method-title">
+      <div class="ossa-section-heading">
+        <div>
+          <p class="eyebrow">The method</p>
+          <h2 id="method-title">Align the modalities. Localize the support.</h2>
+        </div>
+        <a class="ossa-figure-link" href="assets/pipeline_graph.png" target="_blank" rel="noopener">View full-size figure <span aria-hidden="true">↗</span></a>
+      </div>
+      <figure class="ossa-figure ossa-method-figure">
+        <a href="assets/pipeline_graph.png" target="_blank" rel="noopener" aria-label="Open full-size OSSA method figure">
+          <img src="assets/pipeline_graph.png" width="2488" height="976" alt="Three-stage OSSA pipeline. Functional communities are constructed from training FC; within each community, orthogonal alignment and sparse masks are optimized together; rounded masks identify structural supports, with an extension for multiple overlapping supports." fetchpriority="high">
+        </a>
+        <figcaption><strong>OSSA at a glance.</strong> SC and FC are restricted to functional communities estimated from training FC. Within each community, OSSA learns an orthogonal FC alignment and sparse node-support masks. Rounding each mask gives an induced SC subgraph; an overlap penalty controls whether multiple supports collapse or separate.</figcaption>
+      </figure>
+    </section>
+
+    <section id="overview" class="ossa-overview" aria-labelledby="overview-title">
+      <div class="ossa-wrap">
+        <p class="eyebrow">Overview</p>
+        <h2 id="overview-title">From global coupling to local subnetworks</h2>
+        <p class="ossa-lead">Structural and functional connectivity need not agree everywhere, or in the same coordinates. OSSA jointly estimates an orthogonal transformation and a sparse node set to identify structural subnetworks aligned with functional organization.</p>
+        <div class="ossa-contributions">
+          <article>
+            <span class="ossa-number" aria-hidden="true">01</span>
+            <h3>Joint alignment and localization</h3>
+            <p>Extend orthogonal Procrustes to a setting where the alignment target is an unknown induced structural subgraph. Alternate orthogonal and sparse-support updates within each functional community.</p>
+          </article>
+          <article>
+            <span class="ossa-number" aria-hidden="true">02</span>
+            <h3>Local statistical guarantees</h3>
+            <p>For canonical OSSA in a fixed population community, under the required assumptions, with high probability an empirical local maximizer exists near the population target and every local maximizer in that neighborhood exactly recovers the active support and obeys a finite-sample projector error bound.</p>
+          </article>
+          <article>
+            <span class="ossa-number" aria-hidden="true">03</span>
+            <h3>Diagnostics and replication</h3>
+            <p>A multi-support extension probes for additional aligned cores. Simulations and ABCD baseline and Year-2 analyses assess recovery, held-out alignment, and longitudinal consistency of node selection.</p>
+          </article>
+        </div>
+        <div class="ossa-abstract">
+          <h3>Abstract</h3>
+          <p>Characterizing the relationship between brain anatomical wiring and functional coordination remains a fundamental challenge in computational neuroscience. This difficulty primarily arises because structure-function coupling in the human brain is spatially heterogeneous, often localized to subnetworks, and inherently difficult to align across disparate representational modalities. To address this methodological gap, we introduce Orthogonal Sparse Subgraph Alignment (OSSA), a principled and interpretable framework designed to identify compact structural cliques that exhibit maximal concordance with functional connectivity (FC) across subjects. Within each FC-derived community, OSSA optimizes an alignment objective over an orthogonal transformation, which absorbs coordinate mismatch between the two connectivity modalities, and a sparse node-selection vector, which identifies the induced structural connectivity (SC) subgraph. Furthermore, for canonical OSSA within a fixed population community, we establish local statistical guarantees under the required assumptions. With high probability, an empirical local maximizer exists in a specified neighborhood of the population target, and every local maximizer in that neighborhood exactly recovers the active support and satisfies a nonasymptotic error bound for the aligned functional projector. Extensive empirical evaluations on simulated data, alongside analyses of the Adolescent Brain Cognitive Development (ABCD) baseline and longitudinal cohorts, demonstrate that OSSA successfully recovers aligned structural cliques under latent cross-modal rotations. Ultimately, the proposed methodology significantly improves out-of-sample SC–FC alignment over size-matched baselines and identifies compact structural supports with longitudinal consistency in node selection, while multi-support diagnostics suggest a dominant aligned core within the estimated FC communities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="ossa-wrap ossa-results" aria-labelledby="results-title">
+      <p class="eyebrow">Selected results</p>
+      <h2 id="results-title">Compact supports, evaluated on held-out subjects</h2>
+      <p class="ossa-lead">The ABCD analysis uses structural and functional connectomes on the 68-region Desikan–Killiany atlas, with training, validation, and test splits of 60%, 20%, and 20% across ten seeds.</p>
+      <dl class="ossa-study-facts">
+        <div><dt>Baseline cohort</dt><dd>2,350 <span>subjects after QC</span></dd></div>
+        <div><dt>Year-2 cohort</dt><dd>1,897 <span>subjects after QC</span></dd></div>
+        <div><dt>Canonical support</dt><dd>3 <span>nodes per FC community</span></dd></div>
+      </dl>
+      <figure class="ossa-figure ossa-results-figure">
+        <a href="assets/abcd_main_diagnostics_v5.png" target="_blank" rel="noopener" aria-label="Open full-size ABCD results figure">
+          <img src="assets/abcd_main_diagnostics_v5.png" width="1674" height="814" loading="lazy" alt="ABCD results: cortical maps of selection frequency in three FC communities, held-out alignment for five methods, positive null-corrected gains across sparsity budgets, and multiple supports separating only under large overlap penalties.">
+        </a>
+        <figcaption><strong>ABCD localization and diagnostics.</strong> (A) Selection frequency across split seeds at κ = 3; labels denote consensus supports. (B) Held-out rotation-aware alignment, mean ± s.e., for the five methods shown. (C) OSSA maintains positive SC-degree-quartile-matched gain across the tested budgets. (D) Multiple supports collapse at small λ and separate only under large penalties. <a href="assets/abcd_main_diagnostics_v5.png" target="_blank" rel="noopener">View full-size figure <span aria-hidden="true">↗</span></a></figcaption>
+      </figure>
+      <div class="ossa-result-grid">
+        <div>
+          <h3>Improved held-out alignment</h3>
+          <p>OSSA is evaluated against fourteen size-matched support-selection baselines and an ablation that fixes the alignment to the identity. Each baseline support is evaluated with its own training-fitted rotation.</p>
+          <div class="ossa-table-scroll" role="region" aria-label="Selected held-out alignment results" tabindex="0">
+            <table class="ossa-table">
+              <caption>Selected baseline-cohort results at κ = 3.<br>Held-out alignment M<sub>1,aln</sub>, mean ± s.e. across 30 seed–community units.</caption>
+              <thead><tr><th scope="col">Method</th><th scope="col">Held-out alignment</th></tr></thead>
+              <tbody>
+                <tr class="ossa-highlight"><th scope="row">OSSA</th><td>10.55 ± 0.85</td></tr>
+                <tr><th scope="row">NMF</th><td>9.96 ± 0.82</td></tr>
+                <tr><th scope="row">Sparse PLS</th><td>9.22 ± 1.10</td></tr>
+                <tr><th scope="row">OSSA-noW</th><td>3.82 ± 0.42</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="ossa-small">Comparisons across repeated splits are descriptive: the splits reuse subjects from the same cohort. Complete baseline results and evaluation details are in the paper.</p>
+        </div>
+        <div class="ossa-result-notes">
+          <article>
+            <h3>Longitudinal support stability</h3>
+            <p>The same protocol at Year 2 yields a cross-visit support replication score of <strong>0.928 ± 0.033</strong>, based on support-set Jaccard overlap, with a mean overlap of <strong>2.86 of 3 nodes</strong>.</p>
+          </article>
+          <article>
+            <h3>A dominant aligned core</h3>
+            <p>The multi-support diagnostic suggests a dominant aligned core within the estimated FC communities: additional supports collapse at small penalties, while forcing them apart lowers the primary held-out alignment objective.</p>
+          </article>
+          <p class="ossa-interpretation">The selected regions depend on the functional-community construction, sparsity budget, atlas, and cohort. Longitudinal support stability alone does not establish biological specificity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="citation" class="ossa-citation-section" aria-labelledby="citation-title">
+      <div class="ossa-wrap">
+        <div class="ossa-section-heading">
+          <div>
+            <p class="eyebrow">Reference</p>
+            <h2 id="citation-title">Cite this work</h2>
+          </div>
+          <a class="ossa-figure-link" href="../../files/OSSA.bib" download>Download .bib <span aria-hidden="true">↓</span></a>
+        </div>
+        <pre class="ossa-bib"><code>@inproceedings{gao2026orthogonal,
+  title = {Orthogonal Sparse Subgraph Alignment for
+           Structure-Function Coupling in Brain Networks},
+  author = {Gao, Haonan and Ham, Daeyoung and Zhang, Yifei and
+            Tian, Xinyuan and Ding, Shengxian and Zhao, Yize and
+            Li, Tianxi},
+  booktitle = {40th Conference on Neural Information
+               Processing Systems (NeurIPS 2026)},
+  year = {2026},
+  url = {https://rampageoppa.github.io/projects/ossa/}
+}</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ossa-footer">
+    <div class="ossa-wrap">
+      <p>OSSA <span aria-hidden="true">·</span> NeurIPS 2026</p>
+      <a href="../../index.html">Back to Haonan’s website <span aria-hidden="true">→</span></a>
+    </div>
+  </footer>
+</body>
+</html>

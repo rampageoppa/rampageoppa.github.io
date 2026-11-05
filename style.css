@@ -68,6 +68,18 @@ h2.section-title{font-family:var(--serif);font-weight:400;color:var(--ink);
 .section.alt{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
 
 /* research themes */
+.featured-section{width:100%;box-sizing:border-box;padding-bottom:2.4rem;}
+.featured-paper{display:flex;align-items:center;justify-content:space-between;gap:2rem;
+  padding:1.5rem 1.7rem;background:var(--bg-alt);border:1px solid var(--line);
+  border-left:4px solid var(--navy);border-radius:10px;}
+.featured-paper h2{font-family:var(--serif);font-size:1.45rem;line-height:1.3;margin:0 0 .55rem;font-weight:500;}
+.featured-paper h2 a{color:var(--ink);text-decoration:none;}
+.featured-paper h2 a:hover{color:var(--navy);}
+.featured-paper p:not(.eyebrow){color:var(--muted);font-size:.94rem;margin:0;max-width:48rem;}
+.featured-paper .btn-row{flex-shrink:0;flex-direction:column;margin:0;text-align:center;}
+.pub .paper-links{display:flex;flex-wrap:wrap;gap:1.1rem;margin:.65rem 0;font-size:.9rem;font-weight:700;}
+.pub .paper-links a{text-decoration:none;}
+.pub .paper-links a:hover{text-decoration:underline;}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem;}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;}
 .card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;
@@ -184,10 +196,19 @@ h2.section-title{font-family:var(--serif);font-weight:400;color:var(--ink);
 .simple-list .yr{color:var(--navy-2);font-weight:700;font-size:.9rem;white-space:nowrap;}
 
 @media(max-width:860px){
+  .featured-paper{align-items:flex-start;flex-direction:column;gap:1.1rem;padding:1.3rem;}
+  .featured-paper .btn-row{flex-direction:row;}
   .hero{grid-template-columns:1fr;gap:1.8rem;padding:2.6rem 0;}
   .hero-photo{max-width:300px;}
   .grid-2,.grid-3{grid-template-columns:1fr;}
   .project{grid-template-columns:1fr;}
   .project .fig{min-height:160px;max-height:220px;border-right:0;border-bottom:1px solid var(--line);}
   .brand .sb{display:none;}
+}
+
+@media(max-width:600px){
+  .nav-inner{flex-direction:column;align-items:flex-start;gap:.45rem;}
+  .brand .nm{white-space:nowrap;}
+  .navlinks{gap:.1rem;}
+  .navlinks a{padding:.3rem .5rem;}
 }

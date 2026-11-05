@@ -1,0 +1,154 @@
+.ossa-page {
+  --ossa-width: 1160px;
+  --ossa-reading: 78ch;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ossa-page [id] { scroll-margin-top: 96px; }
+.ossa-wrap { width: min(var(--ossa-width), calc(100% - 64px)); margin-inline: auto; }
+.ossa-page a { text-underline-offset: .2em; }
+.ossa-page a:focus-visible, .ossa-table-scroll:focus-visible { outline: 3px solid #7699c5; outline-offset: 5px; }
+.ossa-skip { position: absolute; z-index: 100; top: -80px; left: 16px; padding: .65rem 1rem; color: #fff; background: var(--navy); border-radius: 6px; }
+.ossa-skip:focus { top: 12px; }
+.ossa-topbar { position: sticky; top: 0; z-index: 40; background: rgba(255,255,255,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(12px); }
+.ossa-topbar-inner { min-height: 68px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.ossa-back { font-size: .9rem; font-weight: 650; color: var(--ink); text-decoration: none; }
+.ossa-back span { color: var(--navy-2); margin-right: .4rem; }
+.ossa-nav { display: flex; gap: 1.5rem; font-size: .85rem; }
+.ossa-nav a { color: var(--muted); text-decoration: none; }
+.ossa-nav a:hover, .ossa-back:hover { color: var(--navy-2); }
+
+.ossa-hero { padding-top: 64px; padding-bottom: 58px; text-align: center; }
+.ossa-venue { display: inline-flex; align-items: center; gap: .6rem; margin: 0 0 24px; padding: .28rem .85rem; border: 1px solid #d8e2ef; border-radius: 999px; color: var(--navy); background: #f4f7fb; font-size: .82rem; font-weight: 700; letter-spacing: .025em; }
+.ossa-hero h1 { max-width: 1060px; margin: 0 auto 22px; color: var(--ink); font-family: var(--serif); font-size: clamp(2.15rem, 4vw, 3.35rem); line-height: 1.13; letter-spacing: -.025em; font-weight: 400; text-wrap: balance; }
+.ossa-deck { margin: 0 auto 28px; color: var(--muted); font-size: clamp(1rem, 1.6vw, 1.15rem); line-height: 1.6; text-wrap: balance; }
+.ossa-authors { display: flex; justify-content: center; flex-wrap: wrap; gap: 7px 22px; margin: 0 auto 16px; max-width: 980px; font-size: .99rem; }
+.ossa-authors span { white-space: nowrap; }
+.ossa-authors a { color: var(--navy); font-weight: 700; text-decoration: none; }
+.ossa-authors a:hover { text-decoration: underline; }
+.ossa-authors sup { color: var(--navy-2); font-size: .66em; margin-left: 2px; }
+.ossa-affiliations { color: var(--muted); font-size: .83rem; line-height: 1.5; }
+.ossa-affiliations p { margin: 4px 0; }
+.ossa-affiliations sup { color: var(--navy-2); }
+.ossa-correspondence { margin: 14px 0 0; color: var(--muted); font-size: .79rem; }
+.ossa-correspondence a { color: inherit; }
+.ossa-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-top: 29px; }
+.ossa-actions .btn { font-size: .9rem; }
+.ossa-actions .btn span { margin-left: .5rem; }
+
+.ossa-page .eyebrow { font-size: .72rem; margin-bottom: 10px; }
+.ossa-page h2 { font-family: var(--serif); font-size: clamp(1.7rem, 2.7vw, 2.15rem); line-height: 1.22; letter-spacing: -.015em; font-weight: 400; margin: 0 0 18px; }
+.ossa-page h3 { color: var(--ink); line-height: 1.4; }
+.ossa-section-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
+.ossa-section-heading h2 { margin-bottom: 0; }
+.ossa-figure-link { color: var(--navy-2); font-weight: 650; font-size: .79rem; white-space: nowrap; text-decoration: none; }
+.ossa-figure-link:hover { text-decoration: underline; }
+.ossa-figure-link span { margin-left: .3rem; }
+.ossa-method { padding-bottom: 60px; }
+.ossa-method h2 { font-size: clamp(1.5rem, 2.5vw, 1.9rem); }
+.ossa-figure { margin: 0; }
+.ossa-figure > a { display: block; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 20px; overflow: hidden; }
+.ossa-figure img { width: 100%; height: auto; }
+.ossa-figure figcaption { color: var(--muted); font-size: .82rem; line-height: 1.65; margin-top: 15px; }
+.ossa-figure figcaption strong { color: #414c5b; }
+.ossa-figure figcaption a { color: var(--navy-2); white-space: nowrap; }
+.ossa-overview { padding-block: 64px; background: var(--bg-alt); border-block: 1px solid var(--line); }
+.ossa-lead { color: #465261; font-size: 1.03rem; max-width: var(--ossa-reading); margin: 0 0 30px; line-height: 1.75; }
+.ossa-contributions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; margin: 36px 0 42px; }
+.ossa-contributions article { border-top: 2px solid #c5d3e4; padding-top: 17px; }
+.ossa-number { color: #6e87a6; font-size: .74rem; font-weight: 700; letter-spacing: .08em; }
+.ossa-contributions h3 { font-size: 1.02rem; margin: 8px 0 10px; }
+.ossa-contributions p { color: var(--muted); font-size: .89rem; line-height: 1.75; margin: 0; }
+.ossa-abstract { background: #fff; padding: 30px 34px; border: 1px solid var(--line); border-radius: 10px; }
+.ossa-abstract h3 { margin: 0 0 12px; font-family: var(--serif); font-weight: 400; font-size: 1.45rem; }
+.ossa-abstract p { color: #46505e; font-size: .93rem; line-height: 1.85; margin: 0; }
+
+.ossa-results { padding-block: 68px; }
+.ossa-study-facts { margin: 32px 0 36px; padding: 23px 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.ossa-study-facts > div { padding: 0 26px; border-left: 1px solid var(--line); }
+.ossa-study-facts > div:first-child { padding-left: 0; border-left: 0; }
+.ossa-study-facts dt { color: var(--muted); font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; margin-bottom: 8px; }
+.ossa-study-facts dd { color: var(--navy); font-size: 1.9rem; font-family: var(--serif); line-height: 1.2; margin: 0; }
+.ossa-study-facts dd span { display: block; color: var(--muted); font-family: var(--sans); font-size: .81rem; margin-top: 8px; }
+.ossa-results-figure > a { padding: 24px; }
+.ossa-result-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 54px; margin-top: 44px; }
+.ossa-result-grid h3 { font-size: 1.08rem; margin: 0 0 12px; }
+.ossa-result-grid p { color: var(--muted); font-size: .91rem; line-height: 1.75; margin: 0 0 18px; }
+.ossa-table-scroll { max-width: 100%; overflow-x: auto; }
+.ossa-table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+.ossa-table caption { text-align: left; color: var(--muted); font-size: .77rem; line-height: 1.6; padding: 0 0 13px; }
+.ossa-table th, .ossa-table td { text-align: left; border-bottom: 1px solid var(--line); padding: 10px 12px; }
+.ossa-table thead th { color: var(--muted); font-size: .77rem; border-top: 1px solid #cdd6e2; }
+.ossa-table tbody th { font-weight: 500; }
+.ossa-table td:last-child, .ossa-table thead th:last-child { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ossa-table .ossa-highlight { background: #eef3f9; color: var(--navy); }
+.ossa-table .ossa-highlight th, .ossa-table .ossa-highlight td { font-weight: 750; }
+.ossa-result-grid p.ossa-small { font-size: .76rem; line-height: 1.65; margin-top: 14px; }
+.ossa-result-notes article + article { margin-top: 27px; }
+.ossa-result-notes strong { color: #3f526b; }
+.ossa-result-grid .ossa-interpretation { border-left: 2px solid #c5d3e4; padding-left: 18px; margin-top: 28px; margin-bottom: 0; font-size: .8rem; }
+
+.ossa-citation-section { background: var(--bg-alt); padding-block: 52px; border-block: 1px solid var(--line); }
+.ossa-bib { margin: 0; padding: 26px 30px; background: #fff; border: 1px solid var(--line); border-radius: 10px; color: #45556a; font-size: .8rem; line-height: 1.75; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ossa-bib code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.ossa-footer { padding-block: 26px; }
+.ossa-footer > div { display: flex; align-items: center; justify-content: space-between; gap: 20px; color: var(--muted); font-size: .8rem; }
+.ossa-footer p { margin: 0; }
+.ossa-footer a { font-weight: 600; color: var(--navy-2); text-decoration: none; }
+.ossa-footer a:hover { text-decoration: underline; }
+
+@media (max-width: 860px) {
+  .ossa-wrap { width: min(var(--ossa-width), calc(100% - 40px)); }
+  .ossa-hero { padding-top: 44px; padding-bottom: 40px; }
+  .ossa-hero h1 { max-width: 720px; }
+  .ossa-contributions { grid-template-columns: 1fr; gap: 24px; }
+  .ossa-contributions article { display: grid; grid-template-columns: 25px 1fr; column-gap: 12px; }
+  .ossa-number { grid-row: 1 / 3; padding-top: 4px; }
+  .ossa-contributions h3 { margin-top: 0; }
+  .ossa-result-grid { grid-template-columns: 1fr; gap: 32px; }
+  .ossa-figure > a { padding: 12px; }
+  .ossa-overview, .ossa-results { padding-block: 46px; }
+  .ossa-method { padding-bottom: 44px; }
+  .ossa-abstract { padding: 24px; }
+}
+
+@media (max-width: 540px) {
+  .ossa-page [id] { scroll-margin-top: 108px; }
+  .ossa-topbar-inner { flex-direction: column; gap: 9px; padding-block: 13px 12px; }
+  .ossa-back { font-size: .83rem; }
+  .ossa-nav { gap: 1.6rem; font-size: .76rem; }
+  .ossa-hero { padding-top: 32px; }
+  .ossa-venue { margin-bottom: 21px; font-size: .74rem; }
+  .ossa-hero h1 { font-size: clamp(1.9rem, 7.8vw, 2.4rem); line-height: 1.16; }
+  .ossa-deck { font-size: .96rem; margin-bottom: 22px; }
+  .ossa-authors { font-size: .89rem; gap: 7px 16px; }
+  .ossa-affiliations { font-size: .75rem; }
+  .ossa-correspondence { font-size: .72rem; }
+  .ossa-actions { gap: 10px; margin-top: 24px; }
+  .ossa-actions .btn { padding: .6rem 1rem; font-size: .82rem; }
+  .ossa-section-heading { display: block; margin-bottom: 20px; }
+  .ossa-section-heading .ossa-figure-link { display: inline-block; margin-top: 13px; }
+  .ossa-figure > a { padding: 8px; border-radius: 7px; }
+  .ossa-figure figcaption { font-size: .76rem; }
+  .ossa-lead { font-size: .95rem; }
+  .ossa-contributions { margin-block: 27px 30px; }
+  .ossa-abstract { padding: 21px 20px; }
+  .ossa-abstract p { font-size: .87rem; line-height: 1.8; }
+  .ossa-study-facts { grid-template-columns: 1fr; gap: 18px; padding-block: 22px; margin-top: 27px; }
+  .ossa-study-facts > div, .ossa-study-facts > div:first-child { padding: 0; border: 0; display: grid; grid-template-columns: 1fr 1.15fr; align-items: center; gap: 12px; }
+  .ossa-study-facts dt { font-size: .69rem; margin: 0; }
+  .ossa-study-facts dd { font-size: 1.5rem; }
+  .ossa-study-facts dd span { font-size: .74rem; margin-top: 4px; }
+  .ossa-result-grid { margin-top: 30px; }
+  .ossa-table th, .ossa-table td { padding: 10px 8px; }
+  .ossa-table { font-size: .81rem; }
+  .ossa-table thead th { font-size: .7rem; }
+  .ossa-citation-section { padding-block: 38px; }
+  .ossa-bib { padding: 19px 18px; font-size: .71rem; }
+  .ossa-footer > div { align-items: flex-start; flex-direction: column; gap: 9px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .ossa-page .btn { transition: none; }
+}
