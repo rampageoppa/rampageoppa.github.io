@@ -34,7 +34,7 @@
     <div class="ossa-wrap ossa-topbar-inner">
       <a class="ossa-back" href="../../index.html"><span aria-hidden="true">←</span> Haonan (Eric) Gao</a>
       <nav class="ossa-nav" aria-label="Project navigation">
-        <a href="#overview">Overview</a>
+        <a href="#overview">Abstract</a>
         <a href="#method">Method</a>
         <a href="#results">Results</a>
         <a href="#citation">Citation</a>
@@ -45,8 +45,7 @@
   <main id="main">
     <section class="ossa-wrap ossa-hero" aria-labelledby="paper-title">
       <p class="ossa-venue">NeurIPS 2026 <span aria-hidden="true">·</span> Poster</p>
-      <h1 id="paper-title">Orthogonal Sparse Subgraph Alignment for Structure-Function Coupling in Brain Networks</h1>
-      <p class="ossa-deck">Learning cross-modal alignment and compact structural supports, together.</p>
+      <h1 id="paper-title"><span>Orthogonal Sparse Subgraph Alignment</span> <span>for Structure-Function Coupling in Brain Networks</span></h1>
       <div class="ossa-authors" aria-label="Authors">
         <span><a href="../../index.html">Haonan Gao</a><sup>1</sup></span>
         <span>Daeyoung Ham<sup>2</sup></span>
@@ -63,61 +62,39 @@
       </div>
       <p class="ossa-correspondence"><sup>†</sup> Corresponding authors: <a href="mailto:yize.zhao@yale.edu">Yize Zhao</a> and <a href="mailto:tianxili@umn.edu">Tianxi Li</a></p>
       <div class="ossa-actions">
-        <a class="btn primary" href="../../files/OSSA_camera_ready.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
-        <a class="btn ghost" href="https://arxiv.org/abs/2611.14663" target="_blank" rel="noopener">Publication <span aria-hidden="true">↗</span></a>
-        <a class="btn ghost" href="../../files/OSSA.bib" download>Download BibTeX <span aria-hidden="true">↓</span></a>
+        <a class="btn primary" href="https://arxiv.org/abs/2611.14663" target="_blank" rel="noopener">Publication <span aria-hidden="true">↗</span></a>
+        <a class="btn ghost" href="../../files/OSSA_camera_ready.pdf" target="_blank" rel="noopener">Paper PDF <span aria-hidden="true">↗</span></a>
+        <a class="btn ghost" href="#citation">BibTeX</a>
+      </div>
+    </section>
+
+    <section id="overview" class="ossa-overview" aria-labelledby="overview-title">
+      <div class="ossa-wrap ossa-reading">
+        <p class="ossa-summary"><strong>At a glance.</strong> OSSA finds small sets of brain regions whose anatomical wiring aligns with how those regions function together. In the ABCD Study, it improved alignment on held-out participants compared with size-matched baselines, and the selected regions were consistent at the two-year follow-up.</p>
+        <h2 id="overview-title">Abstract</h2>
+        <div class="ossa-abstract">
+          <p>Characterizing the relationship between brain anatomical wiring and functional coordination remains a fundamental challenge in computational neuroscience. This difficulty primarily arises because structure-function coupling in the human brain is spatially heterogeneous, often localized to subnetworks, and inherently difficult to align across disparate representational modalities.</p>
+          <p>To address this methodological gap, we introduce Orthogonal Sparse Subgraph Alignment (OSSA), a principled and interpretable framework designed to identify compact structural cliques that exhibit maximal concordance with functional connectivity (FC) across subjects. Within each FC-derived community, OSSA optimizes an alignment objective over an orthogonal transformation, which absorbs coordinate mismatch between the two connectivity modalities, and a sparse node-selection vector, which identifies the induced structural connectivity (SC) subgraph.</p>
+          <p>Furthermore, for canonical OSSA within a fixed population community, we establish local statistical guarantees under the required assumptions. With high probability, an empirical local maximizer exists in a specified neighborhood of the population target, and every local maximizer in that neighborhood exactly recovers the active support and satisfies a nonasymptotic error bound for the aligned functional projector.</p>
+          <p>Extensive empirical evaluations on simulated data, alongside analyses of the Adolescent Brain Cognitive Development (ABCD) baseline and longitudinal cohorts, demonstrate that OSSA successfully recovers aligned structural cliques under latent cross-modal rotations. Ultimately, the proposed methodology significantly improves out-of-sample SC–FC alignment over size-matched baselines and identifies compact structural supports with longitudinal consistency in node selection, while multi-support diagnostics suggest a dominant aligned core within the estimated FC communities.</p>
+        </div>
       </div>
     </section>
 
     <section id="method" class="ossa-wrap ossa-method" aria-labelledby="method-title">
-      <div class="ossa-section-heading">
-        <div>
-          <p class="eyebrow">The method</p>
-          <h2 id="method-title">Align the modalities. Localize the support.</h2>
-        </div>
-        <a class="ossa-figure-link" href="assets/pipeline_graph.png" target="_blank" rel="noopener">View full-size figure <span aria-hidden="true">↗</span></a>
-      </div>
+      <h2 id="method-title">How OSSA works</h2>
+      <p class="ossa-lead">OSSA extends orthogonal Procrustes alignment to a setting where the target subgraph is unknown. It identifies functional communities from training data, then learns an orthogonal transformation and selects a small set of structural nodes jointly within each community.</p>
       <figure class="ossa-figure ossa-method-figure">
         <a href="assets/pipeline_graph.png" target="_blank" rel="noopener" aria-label="Open full-size OSSA method figure">
-          <img src="assets/pipeline_graph.png" width="2488" height="976" alt="Three-stage OSSA pipeline. Functional communities are constructed from training FC; within each community, orthogonal alignment and sparse masks are optimized together; rounded masks identify structural supports, with an extension for multiple overlapping supports." fetchpriority="high">
+          <img src="assets/pipeline_graph.png" width="2488" height="976" alt="Three-stage OSSA pipeline: identify functional communities, jointly optimize orthogonal alignment and sparse node weights, then recover the induced structural subgraphs." loading="lazy">
         </a>
-        <figcaption><strong>OSSA at a glance.</strong> SC and FC are restricted to functional communities estimated from training FC. Within each community, OSSA learns an orthogonal FC alignment and sparse node-support masks. Rounding each mask gives an induced SC subgraph; an overlap penalty controls whether multiple supports collapse or separate.</figcaption>
+        <figcaption><strong>OSSA workflow.</strong> The learned node weights are rounded to select the nodes of each induced structural subgraph. The extension for multiple supports penalizes overlap and lets us assess whether a community contains more than one aligned core.</figcaption>
       </figure>
     </section>
 
-    <section id="overview" class="ossa-overview" aria-labelledby="overview-title">
-      <div class="ossa-wrap">
-        <p class="eyebrow">Overview</p>
-        <h2 id="overview-title">From global coupling to local subnetworks</h2>
-        <p class="ossa-lead">Structural and functional connectivity need not agree everywhere, or in the same coordinates. OSSA jointly estimates an orthogonal transformation and a sparse node set to identify structural subnetworks aligned with functional organization.</p>
-        <div class="ossa-contributions">
-          <article>
-            <span class="ossa-number" aria-hidden="true">01</span>
-            <h3>Joint alignment and localization</h3>
-            <p>Extend orthogonal Procrustes to a setting where the alignment target is an unknown induced structural subgraph. Alternate orthogonal and sparse-support updates within each functional community.</p>
-          </article>
-          <article>
-            <span class="ossa-number" aria-hidden="true">02</span>
-            <h3>Local statistical guarantees</h3>
-            <p>For canonical OSSA in a fixed population community, under the required assumptions, with high probability an empirical local maximizer exists near the population target and every local maximizer in that neighborhood exactly recovers the active support and obeys a finite-sample projector error bound.</p>
-          </article>
-          <article>
-            <span class="ossa-number" aria-hidden="true">03</span>
-            <h3>Diagnostics and replication</h3>
-            <p>A multi-support extension probes for additional aligned cores. Simulations and ABCD baseline and Year-2 analyses assess recovery, held-out alignment, and longitudinal consistency of node selection.</p>
-          </article>
-        </div>
-        <div class="ossa-abstract">
-          <h3>Abstract</h3>
-          <p>Characterizing the relationship between brain anatomical wiring and functional coordination remains a fundamental challenge in computational neuroscience. This difficulty primarily arises because structure-function coupling in the human brain is spatially heterogeneous, often localized to subnetworks, and inherently difficult to align across disparate representational modalities. To address this methodological gap, we introduce Orthogonal Sparse Subgraph Alignment (OSSA), a principled and interpretable framework designed to identify compact structural cliques that exhibit maximal concordance with functional connectivity (FC) across subjects. Within each FC-derived community, OSSA optimizes an alignment objective over an orthogonal transformation, which absorbs coordinate mismatch between the two connectivity modalities, and a sparse node-selection vector, which identifies the induced structural connectivity (SC) subgraph. Furthermore, for canonical OSSA within a fixed population community, we establish local statistical guarantees under the required assumptions. With high probability, an empirical local maximizer exists in a specified neighborhood of the population target, and every local maximizer in that neighborhood exactly recovers the active support and satisfies a nonasymptotic error bound for the aligned functional projector. Extensive empirical evaluations on simulated data, alongside analyses of the Adolescent Brain Cognitive Development (ABCD) baseline and longitudinal cohorts, demonstrate that OSSA successfully recovers aligned structural cliques under latent cross-modal rotations. Ultimately, the proposed methodology significantly improves out-of-sample SC–FC alignment over size-matched baselines and identifies compact structural supports with longitudinal consistency in node selection, while multi-support diagnostics suggest a dominant aligned core within the estimated FC communities.</p>
-        </div>
-      </div>
-    </section>
-
     <section id="results" class="ossa-wrap ossa-results" aria-labelledby="results-title">
-      <p class="eyebrow">Selected results</p>
-      <h2 id="results-title">Compact supports, evaluated on held-out subjects</h2>
-      <p class="ossa-lead">The ABCD analysis uses structural and functional connectomes on the 68-region Desikan–Killiany atlas, with training, validation, and test splits of 60%, 20%, and 20% across ten seeds.</p>
+      <h2 id="results-title">Results on the ABCD Study</h2>
+      <p class="ossa-lead">OSSA improved structure–function alignment on held-out participants compared with size-matched baselines. At the two-year follow-up, the selected subnetworks shared an average of <strong>2.86 of 3 nodes</strong> with the baseline selections.</p>
       <dl class="ossa-study-facts">
         <div><dt>Baseline cohort</dt><dd>2,350 <span>subjects after QC</span></dd></div>
         <div><dt>Year-2 cohort</dt><dd>1,897 <span>subjects after QC</span></dd></div>
@@ -129,36 +106,39 @@
         </a>
         <figcaption><strong>ABCD localization and diagnostics.</strong> (A) Selection frequency across split seeds at κ = 3; labels denote consensus supports. (B) Held-out rotation-aware alignment, mean ± s.e., for the five methods shown. (C) OSSA maintains positive SC-degree-quartile-matched gain across the tested budgets. (D) Multiple supports collapse at small λ and separate only under large penalties. <a href="assets/abcd_main_diagnostics_v5.png" target="_blank" rel="noopener">View full-size figure <span aria-hidden="true">↗</span></a></figcaption>
       </figure>
-      <div class="ossa-result-grid">
-        <div>
-          <h3>Improved held-out alignment</h3>
-          <p>OSSA is evaluated against fourteen size-matched support-selection baselines and an ablation that fixes the alignment to the identity. Each baseline support is evaluated with its own training-fitted rotation.</p>
-          <div class="ossa-table-scroll" role="region" aria-label="Selected held-out alignment results" tabindex="0">
-            <table class="ossa-table">
-              <caption>Selected baseline-cohort results at κ = 3.<br>Held-out alignment M<sub>1,aln</sub>, mean ± s.e. across 30 seed–community units.</caption>
-              <thead><tr><th scope="col">Method</th><th scope="col">Held-out alignment</th></tr></thead>
-              <tbody>
-                <tr class="ossa-highlight"><th scope="row">OSSA</th><td>10.55 ± 0.85</td></tr>
-                <tr><th scope="row">NMF</th><td>9.96 ± 0.82</td></tr>
-                <tr><th scope="row">Sparse PLS</th><td>9.22 ± 1.10</td></tr>
-                <tr><th scope="row">OSSA-noW</th><td>3.82 ± 0.42</td></tr>
-              </tbody>
-            </table>
+      <details class="ossa-result-details">
+        <summary>Evaluation details and baseline comparison</summary>
+        <div class="ossa-result-grid">
+          <div>
+            <h3>Improved held-out alignment</h3>
+            <p>The analysis uses the 68-region Desikan–Killiany atlas and 60%, 20%, and 20% training, validation, and test splits across ten seeds. OSSA is compared with fourteen size-matched baselines and an ablation that fixes the rotation to the identity. Each baseline support is evaluated with its own rotation fitted on training data.</p>
+            <div class="ossa-table-scroll" role="region" aria-label="Selected held-out alignment results" tabindex="0">
+              <table class="ossa-table">
+                <caption>Selected baseline-cohort results at κ = 3.<br>Held-out alignment M<sub>1,aln</sub>, mean ± s.e. across 30 seed–community units.</caption>
+                <thead><tr><th scope="col">Method</th><th scope="col">Held-out alignment</th></tr></thead>
+                <tbody>
+                  <tr class="ossa-highlight"><th scope="row">OSSA</th><td>10.55 ± 0.85</td></tr>
+                  <tr><th scope="row">NMF</th><td>9.96 ± 0.82</td></tr>
+                  <tr><th scope="row">Sparse PLS</th><td>9.22 ± 1.10</td></tr>
+                  <tr><th scope="row">OSSA-noW</th><td>3.82 ± 0.42</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="ossa-small">Comparisons across repeated splits are descriptive: the splits reuse subjects from the same cohort. Complete baseline results and evaluation details are in the paper.</p>
           </div>
-          <p class="ossa-small">Comparisons across repeated splits are descriptive: the splits reuse subjects from the same cohort. Complete baseline results and evaluation details are in the paper.</p>
+          <div class="ossa-result-notes">
+            <article>
+              <h3>Longitudinal support stability</h3>
+              <p>The same protocol at Year 2 yields a cross-visit support replication score of <strong>0.928 ± 0.033</strong>, based on support-set Jaccard overlap, with a mean overlap of <strong>2.86 of 3 nodes</strong>.</p>
+            </article>
+            <article>
+              <h3>A dominant aligned core</h3>
+              <p>The multi-support diagnostic suggests a dominant aligned core within the estimated FC communities: additional supports collapse at small penalties, while forcing them apart lowers the primary held-out alignment objective.</p>
+            </article>
+            <p class="ossa-interpretation">The selected regions depend on the functional-community construction, sparsity budget, atlas, and cohort. Longitudinal support stability alone does not establish biological specificity.</p>
+          </div>
         </div>
-        <div class="ossa-result-notes">
-          <article>
-            <h3>Longitudinal support stability</h3>
-            <p>The same protocol at Year 2 yields a cross-visit support replication score of <strong>0.928 ± 0.033</strong>, based on support-set Jaccard overlap, with a mean overlap of <strong>2.86 of 3 nodes</strong>.</p>
-          </article>
-          <article>
-            <h3>A dominant aligned core</h3>
-            <p>The multi-support diagnostic suggests a dominant aligned core within the estimated FC communities: additional supports collapse at small penalties, while forcing them apart lowers the primary held-out alignment objective.</p>
-          </article>
-          <p class="ossa-interpretation">The selected regions depend on the functional-community construction, sparsity budget, atlas, and cohort. Longitudinal support stability alone does not establish biological specificity.</p>
-        </div>
-      </div>
+      </details>
     </section>
 
     <section id="citation" class="ossa-citation-section" aria-labelledby="citation-title">
